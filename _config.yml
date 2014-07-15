@@ -1,11 +1,11 @@
 # Site settings
-title: Your awesome title
+title: suejarman.co.uk
 email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Sue has worked as a freelance designer and art and design lecturer for 15 years, producing illustration, graphics, photography and surface design for a range of clients in fashion, publishing, interiors and travel."
 baseurl: ""
 url: "http://yourdomain.com"
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: sue_jarman
+github_username:  suejarman
 
 # Build settings
 markdown: kramdown
