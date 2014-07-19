@@ -12,6 +12,6 @@ permalink: /about/
   <h1>{{ site.data.about_text.name }}</h1>
   
   {% for text in site.data.about_text.paragraphs %}
-    <p>{{ text.paragraph }}></p>
+    <p>{{ text.paragraph }}</p>
   {% endfor %}
 </div>
