@@ -1,4 +1,9 @@
 ---
 layout: default
-title: Comming soon!
 ---
+
+{% for image in site.data.index_images.images %}
+  <div class="large-{{ site.data.index_images.colspan }} columns">
+    <a href="{{ image.link_url }}"><img src="{{ image.image_url }}"></a>
+  </div>
+{% endfor %}

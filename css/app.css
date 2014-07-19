@@ -1,0 +1,81 @@
+img {
+  margin-bottom: 25px;
+}
+
+
+.header-area {
+  background: white;
+  min-height: 140px;
+}
+
+.footer-area {
+  background: white;
+  min-height: 100px;
+  text-align: center;
+}
+
+
+.full-width {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial;
+}
+
+.top-bar {
+  background: #fff;
+}
+ 
+/** Removes black background on menu bar **/
+.top-bar-section ul {
+  background: #fff;
+  text-transform: uppercase;
+}
+ 
+/** Removes black background on menu item **/
+.top-bar-section li a:not(.button) {
+  background: #fff;
+}
+
+/** Changes the active menu item from default black **/
+.top-bar-section ul li.active > a {
+  background: #fff;
+  color: #fff;
+}
+ 
+/** Changes the hover state of non active menu items **/
+.top-bar-section li:hover a {
+  background: #fff;
+  color: #fff;
+}
+ 
+/** Changes non active menu items text color to black **/
+.top-bar-section ul li > a {
+  color: #fff;
+}
+ 
+/** Changes the hover state of dropdown menu items **/
+.top-bar-section ul.dropdown li a:hover:not(.button) {
+  background: #fff;
+}
+ 
+/** IMPORTANT fill for the ul dropdown container **/
+.top-bar-section ul.dropdown {
+  background: #fff;
+  color: #fff;
+}
+ 
+/** This fixes the position and the color of the dropdown arrow **/
+.top-bar-section .has-dropdown > a:after {
+  border-color: rgba(0, 0, 0, 1) transparent transparent;
+  margin-top: 2.5px;
+}
+
+.top-bar-section ul li {
+  background: none;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: none;
+  color: #000;
+}
