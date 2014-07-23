@@ -5,7 +5,9 @@ permalink: /about/
 ---
 
 <div class="large-4 columns">
-  <img src="{{ site.data.about_text.image }}">
+  {% for image in site.data.about_text.images %}
+    <img src="{{ image.url }}">
+  {% endfor %}
 </div>
 
 <div class="large-8 columns">

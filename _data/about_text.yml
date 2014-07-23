@@ -1,6 +1,8 @@
 name: Sue Jarman
 
-image: http://placehold.it/600x800
+images: 
+  - url: http://placehold.it/600x800
+  - url: http://placehold.it/600x400
 
 paragraphs:
   - paragraph: Sue has worked as a freelance designer and art and design lecturer for 15 years, producing illustration, graphics, photography and surface design for a range of clients in fashion, publishing, interiors and travel.
