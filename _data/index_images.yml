@@ -1,38 +1,39 @@
-colspan: 3
-
 images:
-  - image_url: http://placehold.it/600x338
+  - image_url: https://dl.dropboxusercontent.com/u/36670002/sue-website/1_title.jpg
     link_url: /galleries/one.html
   
-  - image_url: http://placehold.it/600x338
+  - image_url: https://dl.dropboxusercontent.com/u/36670002/sue-website/home_1.jpg
     link_url: /galleries/two.html
-  
-  - image_url: http://placehold.it/600x338
+
+  - image_url: https://dl.dropboxusercontent.com/u/36670002/sue-website/2_illustration.jpg
+    link_url: /galleries/three.html
+
+
+  - image_url: https://dl.dropboxusercontent.com/u/36670002/sue-website/home_2.jpg
+    link_url: /galleries/two.html
+
+  - image_url: https://dl.dropboxusercontent.com/u/36670002/sue-website/3_photography.jpg
     link_url: /galleries/three.html
   
-  - image_url: http://placehold.it/600x338
+  - image_url: https://dl.dropboxusercontent.com/u/36670002/sue-website/home_3.jpg
     link_url: /galleries/one.html
-  
-  - image_url: http://placehold.it/600x338
-    link_url: /galleries/two.html
-  
-  - image_url: http://placehold.it/600x338
+
+
+  - image_url: https://dl.dropboxusercontent.com/u/36670002/sue-website/home_4.jpg
     link_url: /galleries/three.html
-  
-  - image_url: http://placehold.it/600x338
+
+  - image_url: https://dl.dropboxusercontent.com/u/36670002/sue-website/4_design.jpg
     link_url: /galleries/one.html
-  
-  - image_url: http://placehold.it/600x338
+
+  - image_url: https://dl.dropboxusercontent.com/u/36670002/sue-website/home_5.jpg
     link_url: /galleries/two.html
   
-  - image_url: http://placehold.it/600x338
-    link_url: /galleries/three.html
-  
-  - image_url: http://placehold.it/600x338
+
+  - image_url: https://dl.dropboxusercontent.com/u/36670002/sue-website/home_6.jpg
     link_url: /galleries/one.html
   
-  - image_url: http://placehold.it/600x338
+  - image_url: https://dl.dropboxusercontent.com/u/36670002/sue-website/5_art_direction.jpg
     link_url: /galleries/two.html
-  
-  - image_url: http://placehold.it/600x338
+
+  - image_url: https://dl.dropboxusercontent.com/u/36670002/sue-website/home_7.jpg
     link_url: /galleries/three.html

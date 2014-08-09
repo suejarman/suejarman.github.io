@@ -2,9 +2,8 @@
 layout: default
 ---
 
-{% for image in site.data.index_images.images %}
-  <div class="large-{{ site.data.index_images.colspan }} columns">
+<section id="home-page-images">
+  {% for image in site.data.index_images.images %}
     <a href="{{ image.link_url }}"><img src="{{ image.image_url }}"></a>
-  </div>
-{% endfor %}
-
+  {% endfor %}
+</section>
