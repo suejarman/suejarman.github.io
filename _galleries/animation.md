@@ -16,7 +16,15 @@ images:
   {% include gallery_list.html %}
 </div>
 
+<!-- 
+NOTE: this page is handled differently to other gallery pages due to the animation pages themselves.
+The layout needs to be default and not gallery - anything you do in the gallery layout needs to be duplicated here.
+There may be a way round this restriction, but for now - it's a working solution. 
+-->
+
 <div class="large-9 columns">
+  <h2>{{ page.title }}</h2>
+  
   <ul class="clearing-thumbs">
     {% for image in page.images %}
       <li><a href="{{ image.url }}"><img src="{{ image.th_url }}"/></a></li>
