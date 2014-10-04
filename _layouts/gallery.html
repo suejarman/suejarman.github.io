@@ -7,6 +7,8 @@ layout: default
 </div>
 
 <div class="large-9 columns">
+  <h2>{{ page.title }}</h2>
+  
   <ul class="clearing-thumbs" data-clearing>
     {% for image in page.images %}
       <li><a href={{ image.url }}><img src={{ image.th_url }}></a></li>
