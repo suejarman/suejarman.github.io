@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  My Second Post
+menu_control: Blog
 date:   2014-07-18
 ---
 

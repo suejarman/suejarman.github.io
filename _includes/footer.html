@@ -1,18 +1,11 @@
 <div class="large-12 columns">
-  <dl class="sub-nav">
-    <dt>Copyright &copy; {{ site.time | date: "%Y" }} {{ site.copyright_owner }}</dt>
+  <div class="pull-left">
+    Copyright Sue Jarman {{ site.time | date: "%Y" }}&copy;. All rights reserved.
+  </div>
 
-    <dd><a href="mailto:{{ site.email }}"><i class="fi-mail"></i> {{ site.email }}</a></dd>
-
-    {% if site.github_username %}
-      <dd>
-        <a href="https://github.com/{{ site.github_username }}"><i class="fi-social-github"></i> {{ site.github_username }}</a>
-      </dd>
-    {% endif %}
-    {% if site.twitter_username %}
-      <dd>
-        <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fi-social-twitter"></i> {{ site.twitter_username }}</a>
-      </dd>
-    {% endif %}
-  </dl>  
+  <div class="pull-right">
+    <a href="https://www.facebook.com/sue.jarman"><img src="/imgs/facebook logo-01.png" class="social-icon"/></a>
+    <a href="https://twitter.com/sue_jarman"><img src="/imgs/Twitter_logo_blue.png" class="social-icon"/></a>
+    <a href="https://www.tumblr.com/"><img src="/imgs/tumblr_logo_gray_512.png" class="social-icon"/></a>  
+  </div>
 </div>

@@ -1,10 +1,56 @@
+@font-face {
+  font-family: 'CamptonLight';
+  src: url('../fonts/Rene Bieder - Campton Light DEMO.otf');
+}
+
+@font-face {
+  font-family: 'NeusaMedium';
+  src: url('../fonts/The Northern Block Ltd - Neusa-Medium.otf');
+}
+
+body {
+  font-family: 'CamptonLight';
+  color: rgb(128, 130, 133);
+}
+
+h1, h2, h3, h4, h5, h6, 
+.top-bar-section ul li a, 
+.side-nav li a,
+.side-nav li.active > a:first-child:not(.button) {
+  font-family: 'NeusaMedium';
+  color: rgb(128, 130, 133);
+}
+
+.top-bar-section ul li a, 
+.side-nav li a {
+  font-size: 1.75em;
+  color: rgb(128, 130, 133);
+  text-transform: uppercase;
+}
+
+.side-nav li a:not(.button),
+.top-bar-section ul li a,
+.top-bar-section li:not(.has-form) a:not(.button) {
+  color: rgb(128, 130, 133);
+}
+
+.side-nav li a:not(.button):hover,
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background-color: rgb(245, 165, 151);
+  color: #000;
+}
+
+.side-nav li.active > a:first-child:not(.button) {
+  color: #000;  
+}
+
 /** ======================================================================== **/
 /**                 INDEX PAGE - FLEXI HEIGHT IMAGES - START                 **/
 /** ======================================================================== **/
 
 /** Cannot make flexi-height images work with columns - this works! **/
 #home-page-images {
-   line-height: 0;   
+   line-height: 0;
    -webkit-column-count: 4;
    -webkit-column-gap:   0px;
    -moz-column-count:    4;
@@ -62,10 +108,18 @@ img {
 .footer-area {
   background: white;
   min-height: 100px;
-  text-align: center;
   margin-top: 20px;
 }
 
+.pull-left {
+  display: inline-block;
+  float: left;
+}
+
+.pull-right {
+  display: inline-block;
+  float: right;
+}
 
 .full-width {
   width: 97%;
@@ -78,7 +132,7 @@ img {
   background: #fff;
 }
 
-/** Logo area **/ 
+/** Logo area **/
 .top-bar .title-area .name {
   padding: 10px;
 }
@@ -88,7 +142,7 @@ img {
   background: #fff;
   text-transform: uppercase;
 }
- 
+
 /** Removes black background on menu item **/
 .top-bar-section li a:not(.button) {
   background: #fff;
@@ -96,32 +150,31 @@ img {
 
 /** Changes the active menu item from default black **/
 .top-bar-section ul li.active > a {
-  background: #fff;
-  color: #fff;
+  color: #000;  
 }
- 
+
 /** Changes the hover state of non active menu items **/
 .top-bar-section li:hover a {
-  background: #fff;
-  color: #fff;
+  background-color: rgb(245, 165, 151);
+  color: rgb(128, 130, 133);
 }
- 
+
 /** Changes non active menu items text color to black **/
 .top-bar-section ul li > a {
   color: #fff;
 }
- 
+
 /** Changes the hover state of dropdown menu items **/
 .top-bar-section ul.dropdown li a:hover:not(.button) {
   background: #fff;
 }
- 
+
 /** IMPORTANT fill for the ul dropdown container **/
 .top-bar-section ul.dropdown {
   background: #fff;
   color: #fff;
 }
- 
+
 /** This fixes the position and the color of the dropdown arrow **/
 .top-bar-section .has-dropdown > a:after {
   border-color: rgba(0, 0, 0, 1) transparent transparent;
@@ -134,5 +187,12 @@ img {
 
 .top-bar-section li:not(.has-form) a:not(.button) {
   background: none;
-  color: #000;
+}
+
+img#sjlogo {
+  width: 300px !important;
+}
+
+img.social-icon {
+  width: 30px !important;
 }

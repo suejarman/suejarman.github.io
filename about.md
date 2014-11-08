@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+menu_control: About
 permalink: /about/
 ---
 

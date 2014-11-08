@@ -1,7 +1,7 @@
 <nav class="top-bar" data-topbar>
   <ul class="title-area">
     <li class="name">
-      <a href="{{ site.baseurl }}/"><img src="/imgs/logo.png"</a>
+      <a href="{{ site.baseurl }}/"><img src="/imgs/sJ Logo 90per black.png" id="sjlogo"/></a>
     </li>
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
   </ul>
@@ -9,12 +9,14 @@
   <section class="top-bar-section">
     <ul class="right">
       {% for page in site.pages %}
-        {% if page.title %}
+        {% if page.title %} 
+          <li>
           {% if page.title == 'Blog' %}
-            <li><a href="{{ site.posts.first.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            <a href="{{ site.posts.first.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% else %}
-            <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
+          </li>
         {% endif %}
       {% endfor %}
     </ul>
