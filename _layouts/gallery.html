@@ -2,21 +2,36 @@
 layout: default
 ---
 
-<div class="large-3 columns">
+<div class="large-3 columns show-for-medium-up">
   {% include gallery_list.html %}
 </div>
 
-<div class="large-9 columns">
+<div class="large-9 columns show-for-medium-up">
   <ul class="clearing-thumbs" data-clearing>
     {% for image in page.images %}
-    <li class="name visible-for-small-only">
-      <a href="{{ image.url }}"><img src="{{ image.url }}" class="portfolio-thumb-mobile"></a>
-    </li>
-    <li class="name visible-for-medium-up">
-      <a href="{{ image.url }}"><img src="{{ image.url }}" class="portfolio-thumb"></a>
-    </li>
+      <li class="name">
+        <a href="{{ image.url }}"><img src="{{ image.url }}" class="portfolio-thumb"></a>
+      </li>
     {% endfor %}
   </ul>  
-  
+
   <p>{{ page.desc }}</p>
+</div>
+
+
+
+<div class="large-12 columns show-for-small-only">
+  <h2>{{ page.title }}</h2>
+
+  <ul class="clearing-thumbs" data-clearing>
+    {% for image in page.images %}
+      <li class="name">
+        <a href="{{ image.url }}"><img src="{{ image.url }}"></a>
+      </li>
+    {% endfor %}
+  </ul>  
+
+  <p>{{ page.desc }}</p>
+
+  {% include gallery_list.html %}
 </div>

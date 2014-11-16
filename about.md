@@ -5,16 +5,48 @@ menu_control: About
 permalink: /about/
 ---
 
-<div class="large-4 columns">
+<div class="large-4 columns show-for-large-up">
   {% for image in site.data.about_text.images %}
     <img src="{{ image.url }}">
   {% endfor %}
 </div>
 
-<div class="large-8 columns">
+<div class="large-8 columns show-for-large-up">
   <h1>{{ site.data.about_text.name }}</h1>
   
   {% for text in site.data.about_text.paragraphs %}
     <p>{{ text.paragraph }}</p>
+  {% endfor %}
+</div>
+
+
+<div class="large-12 columns show-for-medium-only">
+  <h1>{{ site.data.about_text.name }}</h1>
+  
+  {% for text in site.data.about_text.paragraphs %}
+    <p>{{ text.paragraph }}</p>
+  {% endfor %}
+</div>
+
+<div class="large-4 columns show-for-medium-only">
+  {% for image in site.data.about_text.images %}
+    <div class="medium-4 columns show-for-medium-only">
+      <img src="{{ image.url }}">
+    </div>
+  {% endfor %}
+</div>
+
+
+<div class="large-12 columns show-for-small-only">
+  <h1>{{ site.data.about_text.name }}</h1>
+  
+  {% for text in site.data.about_text.paragraphs %}
+    <p>{{ text.paragraph }}</p>
+  {% endfor %}
+</div>
+
+<div class="large-12 columns show-for-small-only">
+  {% for image in site.data.about_text.images %}
+    <img src="{{ image.url }}">
   {% endfor %}
 </div>
