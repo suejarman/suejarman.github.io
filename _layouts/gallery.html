@@ -7,28 +7,11 @@ layout: default
 </div>
 
 <div class="large-9 columns">
-  <div class="row">
-    <div class="large-1 columns">
-    </div>
-
-    <div class="large-10 columns">
-      <ul class="example-orbit" data-orbit>
-        {% for image in page.images %}
-          <li>
-            <img src="{{ image.url }}"/>
-          </li>
-        {% endfor %}
-      </ul>      
-    </div>
-
-    <div class="large-1 columns">
-    </div>
-  </div>
+  <ul class="clearing-thumbs" data-clearing>
+    {% for image in page.images %}
+      <li><a href="{{ image.url }}"><img src="{{ image.url }}" class="portfolio-thumb"></a></li>
+    {% endfor %}
+  </ul>  
   
-  <div class="row">
-    <div class="large-12 columns">    
-      <p>{{ page.desc }}</p>
-    </div>
-  </div>
+  <p>{{ page.desc }}</p>
 </div>
-

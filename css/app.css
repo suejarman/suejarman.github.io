@@ -24,10 +24,12 @@ h1, h2, h3, h4, h5, h6,
 
 .top-bar-section ul li a, 
 .side-nav li a {
-  font-size: 1.25em;
   color: rgb(128, 130, 133);
   text-transform: uppercase;
 }
+
+.top-bar-section ul li a { font-size: 1.25em; }
+.side-nav li a { font-size: 1.75em; }
 
 .side-nav li a:not(.button),
 .top-bar-section ul li a,
@@ -196,4 +198,9 @@ img#sjlogo {
 
 img.social-icon {
   width: 30px !important;
+}
+
+img.portfolio-thumb {
+  width: 200px !important;
+  margin: 6px;
 }
