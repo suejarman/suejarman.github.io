@@ -10,7 +10,9 @@ layout: default
   <ul class="clearing-thumbs" data-clearing>
     {% for image in page.images %}
       <li class="name">
-        <a href="{{ image.url }}"><img src="{{ image.url }}" class="portfolio-thumb"></a>
+        <a href="{{ image.url }}">
+          <img src="{{ image.url }}" class="portfolio-thumb" data-caption="{{ image.caption }}">
+        </a>
       </li>
     {% endfor %}
   </ul>  
@@ -26,7 +28,9 @@ layout: default
   <ul class="clearing-thumbs" data-clearing>
     {% for image in page.images %}
       <li class="name">
-        <a href="{{ image.url }}"><img src="{{ image.url }}"></a>
+        <a href="{{ image.url }}">
+          <img src="{{ image.url }}" data-caption="{{ image.caption }}">
+        </a>
       </li>
     {% endfor %}
   </ul>  
