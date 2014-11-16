@@ -196,11 +196,19 @@ img#sjlogo {
   width: 300px !important;
 }
 
+img#sjlogo-small {
+  width: 120px !important;
+}
+
 img.social-icon {
   width: 30px !important;
 }
 
 img.portfolio-thumb {
   width: 200px !important;
+  margin: 6px;
+}
+
+img.portfolio-thumb-mobile {
   margin: 6px;
 }

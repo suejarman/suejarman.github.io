@@ -9,7 +9,12 @@ layout: default
 <div class="large-9 columns">
   <ul class="clearing-thumbs" data-clearing>
     {% for image in page.images %}
-      <li><a href="{{ image.url }}"><img src="{{ image.url }}" class="portfolio-thumb"></a></li>
+    <li class="name visible-for-small-only">
+      <a href="{{ image.url }}"><img src="{{ image.url }}" class="portfolio-thumb-mobile"></a>
+    </li>
+    <li class="name visible-for-medium-up">
+      <a href="{{ image.url }}"><img src="{{ image.url }}" class="portfolio-thumb"></a>
+    </li>
     {% endfor %}
   </ul>  
   
