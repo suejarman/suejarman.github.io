@@ -3,6 +3,7 @@ title: suejarman.co.uk
 email: sue@suejarman.co.uk
 url: "http://suejarman.co.uk"
 baseurl: ""
+port: 3000
 twitter_username: sue_jarman
 github_username:  suejarman
 copyright_owner: Sue Jarman
