@@ -68,6 +68,10 @@ h1, h2, h3, h4, h5, h6,
   height: auto !important;
 }
 
+#home-page-images a:hover img {
+    opacity: 0.6;
+}
+
 @media (max-width: 1000px) {
   #home-page-images {
   -moz-column-count:    3;
