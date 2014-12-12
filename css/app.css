@@ -253,6 +253,7 @@ img.portfolio-thumb-mobile {
 
 .top-bar .title-area {
   height: 80px;
+  margin-left: 10px;
 }
 
 .top-bar .name {
@@ -261,19 +262,16 @@ img.portfolio-thumb-mobile {
 
 /** Logo positioning **/
 .top-bar .title-area .name {
-  padding: 10px;
+  padding: 20px;
 }
 
-.top-bar .title-area .name {
-padding: 20px;
-}
-/* Mobile Nav */
+/* Mobile Menu */
 .top-bar .toggle-topbar a {
   top: 30px;
   padding: 0px 15px 0px 0px;
 }
 
-/* Tablet+ Nav */
+/* Tablet+ Nav bar */
 .top-bar-section ul {
   margin-top: 20px;
   height: auto;
