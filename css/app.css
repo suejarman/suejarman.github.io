@@ -1,4 +1,10 @@
-.Campton-Light { 
+/*
+// ========================================================================
+// FONTS
+// ========================================================================
+*/
+
+.Campton-Light {
 	font-family: Campton-Light;
 	font-weight: normal;
 	font-style: normal;
@@ -15,20 +21,21 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, 
-.top-bar-section ul li a, 
+.top-bar .toggle-topbar.menu-icon a,
+.top-bar-section ul li a,
 .side-nav li a,
 .side-nav li.active > a:first-child:not(.button) {
   font-family: 'NeusaMedium';
   color: rgb(128, 130, 133);
-}
-
-.top-bar-section ul li a, 
-.side-nav li a {
-  color: rgb(128, 130, 133);
   text-transform: uppercase;
 }
 
-.top-bar-section ul li a { font-size: 1.25em; }
+/* set font size for Mobile MENU and NAV */
+.top-bar .toggle-topbar.menu-icon a,
+.top-bar-section ul li a {
+  font-size: 1.25em;
+  line-height: 1.2;
+}
 .side-nav li a { font-size: 1.75em; }
 
 .side-nav li a:not(.button),
@@ -47,9 +54,11 @@ h1, h2, h3, h4, h5, h6,
   color: #000;  
 }
 
-/** ======================================================================== **/
-/**                 INDEX PAGE - FLEXI HEIGHT IMAGES - START                 **/
-/** ======================================================================== **/
+/*
+// ========================================================================
+// HOME PAGE GRID IMAGE HANDLING
+// ========================================================================
+*/
 
 /** Cannot make flexi-height images work with columns - this works! **/
 #home-page-images {
@@ -96,9 +105,11 @@ h1, h2, h3, h4, h5, h6,
   }
 }
 
-/** ======================================================================== **/
-/**                 INDEX PAGE - FLEXI HEIGHT IMAGES - END                   **/
-/** ======================================================================== **/
+/*
+// ========================================================================
+// ELEMENT SIZING
+// ========================================================================
+*/
 
 
 img {
@@ -108,13 +119,10 @@ img {
 
 .header-area {
   background: white;
-  min-height: 90px;
 }
 
 .footer-area {
   background: white;
-  min-height: 100px;
-  margin-top: 20px;
 }
 
 .pull-left {
@@ -128,19 +136,20 @@ img {
 }
 
 .full-width {
-  width: 97%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 95%;
+  margin-left: 0px;
+  margin-right: 0px;
   max-width: initial;
 }
 
+/*
+// ========================================================================
+// COLOURS
+// ========================================================================
+*/
+
 .top-bar {
   background: #fff;
-}
-
-/** Logo area **/
-.top-bar .title-area .name {
-  padding: 10px;
 }
 
 /** Removes black background on menu bar **/
@@ -156,7 +165,7 @@ img {
 
 /** Changes the active menu item from default black **/
 .top-bar-section ul li.active > a {
-  color: #000;  
+  color: #000;
 }
 
 /** Changes the hover state of non active menu items **/
@@ -195,12 +204,22 @@ img {
   background: none;
 }
 
+.top-bar .toggle-topbar.menu-icon a {
+  color: rgb(128, 130, 133);
+}
+
+/*
+// ========================================================================
+// LOGO'S
+// ========================================================================
+*/
+
 img#sjlogo {
-  width: 300px !important;
+  width: 250px !important;
 }
 
 img#sjlogo-small {
-  width: 120px !important;
+  width: 250px !important;
 }
 
 img.social-icon {
@@ -216,6 +235,47 @@ img.portfolio-thumb-mobile {
   margin: 6px;
 }
 
+/*
+// ========================================================================
+// HEADER POSITIONING
+// ========================================================================
+*/
+
+.top-bar {
+  min-height: 80px;
+  height: 80px;
+}
+
+.top-bar .title-area {
+  height: 80px;
+}
+
+.top-bar .name {
+  height: 80px;
+}
+
+/** Logo positioning **/
+.top-bar .title-area .name {
+  padding: 10px;
+}
+
+/* Mobile Nav */
 .top-bar .toggle-topbar.menu-icon a {
-  color: rgb(128, 130, 133);
+  height: 25px;
+  top: 5px;
+  margin-top: 0px;
+  padding: 0 50px 0 15px;
+}
+
+/* Tablet+ Nav */
+.top-bar-section ul {
+  margin-top: 16px;
+  height: auto;
+  line-height: 1.2;
+  width: auto;
+}
+
+.footer-area {
+  min-height: 100px;
+  margin-top: 20px;
 }
