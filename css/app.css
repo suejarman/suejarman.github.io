@@ -30,12 +30,17 @@ h1, h2, h3, h4, h5, h6,
   text-transform: uppercase;
 }
 
-/* set font size for Mobile MENU and NAV */
-.top-bar .toggle-topbar.menu-icon a,
-.top-bar-section ul li a {
-  font-size: 1.25em;
+/* set font size for Mobile MENU */
+.top-bar .toggle-topbar a {
+  font-size: 1.2em;
   line-height: 1.2;
 }
+/* set font size for NAV bar */
+.top-bar-section ul li a {
+  font-size: 1.3em;
+  line-height: 1.2;
+}
+
 .side-nav li a { font-size: 1.75em; }
 
 .side-nav li a:not(.button),
@@ -204,7 +209,7 @@ img {
   background: none;
 }
 
-.top-bar .toggle-topbar.menu-icon a {
+.top-bar .toggle-topbar a {
   color: rgb(128, 130, 133);
 }
 
@@ -260,18 +265,15 @@ img.portfolio-thumb-mobile {
 }
 
 /* Mobile Nav */
-.top-bar .toggle-topbar.menu-icon a {
-  height: 25px;
-  top: 5px;
-  margin-top: 0px;
-  padding: 0 50px 0 15px;
+.top-bar .toggle-topbar a {
+  top: 30px;
+  padding: 0px 15px 0px 0px;
 }
 
 /* Tablet+ Nav */
 .top-bar-section ul {
-  margin-top: 16px;
+  margin-top: 15px;
   height: auto;
-  line-height: 1.2;
   width: auto;
 }
 
