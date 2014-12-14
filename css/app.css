@@ -35,6 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 .top-bar {
   min-height: 80px;
   height: 80px;
+  background: #fff;
 }
 
 .top-bar .title-area {
@@ -67,12 +68,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* top nav defaults */
+.top-bar-section ul li,
 .top-bar-section ul li a,
 .top-bar-section li:not(.has-form) a:not(.button) {
   font-family: 'NeusaMedium';
   color: rgb(128, 130, 133);
   text-transform: uppercase;
-  font-size: 1.4em;
+  font-size: 1.2em;
+  background: none;
 }
 
 /* top nav - shift down */
@@ -167,7 +170,6 @@ h1, h2, h3, h4, h5, h6 {
 // ========================================================================
 */
 
-
 img {
   margin-bottom: 10px;
   height: auto !important;
@@ -188,68 +190,6 @@ img {
   margin-left: 0px;
   margin-right: 0px;
   max-width: initial;
-}
-
-/*
-// ========================================================================
-// COLOURS
-// ========================================================================
-*/
-
-.top-bar {
-  background: #fff;
-}
-
-/** Removes black background on menu bar **/
-.top-bar-section ul {
-  background: #fff;
-  text-transform: uppercase;
-}
-
-/** Removes black background on menu item **/
-.top-bar-section li a:not(.button) {
-  background: #fff;
-}
-
-/** Changes the active menu item from default black **/
-.top-bar-section ul li.active > a {
-  color: #000;
-}
-
-/** Changes the hover state of non active menu items **/
-.top-bar-section li:hover a {
-  background-color: rgb(245, 165, 151);
-  color: rgb(128, 130, 133);
-}
-
-/** Changes non active menu items text color to black **/
-.top-bar-section ul li > a {
-  color: #fff;
-}
-
-/** Changes the hover state of dropdown menu items **/
-.top-bar-section ul.dropdown li a:hover:not(.button) {
-  background: #fff;
-}
-
-/** IMPORTANT fill for the ul dropdown container **/
-.top-bar-section ul.dropdown {
-  background: #fff;
-  color: #fff;
-}
-
-/** This fixes the position and the color of the dropdown arrow **/
-.top-bar-section .has-dropdown > a:after {
-  border-color: rgba(0, 0, 0, 1) transparent transparent;
-  margin-top: 2.5px;
-}
-
-.top-bar-section ul li {
-  background: none;
-}
-
-.top-bar-section li:not(.has-form) a:not(.button) {
-  background: none;
 }
 
 /*
