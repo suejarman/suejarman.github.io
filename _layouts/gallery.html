@@ -7,15 +7,17 @@ layout: default
 </div>
 
 <div class="large-9 columns show-for-medium-up">
+  <h2>{{ page.title }}</h2>
+
   <ul class="clearing-thumbs" data-clearing>
     {% for image in page.images %}
       <li class="name">
         <a href="{{ image.url }}">
-          <img src="{{ image.url }}" class="portfolio-thumb" data-caption="{{ image.caption }}">
-        </a>
+          <img src="{{ image.thm }}" class="portfolio-thumb" data-caption="{{ image.caption }}">
+      </a>
       </li>
     {% endfor %}
-  </ul>  
+  </ul>
 
   <p>{{ page.desc }}</p>
 </div>
@@ -29,7 +31,7 @@ layout: default
     {% for image in page.images %}
       <li class="name">
         <a href="{{ image.url }}">
-          <img src="{{ image.url }}" data-caption="{{ image.caption }}">
+          <img src="{{ image.thm }}" data-caption="{{ image.caption }}">
         </a>
       </li>
     {% endfor %}
