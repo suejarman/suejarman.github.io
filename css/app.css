@@ -20,45 +20,69 @@ body {
   color: rgb(128, 130, 133);
 }
 
-h1, h2, h3, h4, h5, h6, 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'NeusaMedium';
+  color: rgb(128, 130, 133);
+  text-transform: uppercase;
+  font-size: 1.7em;
+}
+
+/* mobile MENU defaults */
 .top-bar .toggle-topbar a,
-.top-bar .toggle-topbar.menu-icon a,
+.top-bar .toggle-topbar.menu-icon a {
+  font-family: 'NeusaMedium';
+  color: rgb(128, 130, 133);
+  text-transform: uppercase;
+  font-size: 1.4em;
+  padding: 0px 15px 0px 0px;
+}
+
+/* mobile MENU - shift down */
+.top-bar .toggle-topbar{
+  top: 20px;
+}
+
+/* top nav defaults */
 .top-bar-section ul li a,
+.top-bar-section li:not(.has-form) a:not(.button) {
+  font-family: 'NeusaMedium';
+  color: rgb(128, 130, 133);
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+
+/* top nav - shift down */
+.top-bar-section ul {
+  margin-top: 20px;
+/*  height: auto;
+  width: auto;*/
+}
+
+/* side nav defaults */
 .side-nav li a,
+.side-nav li a:not(.button),
 .side-nav li.active > a:first-child:not(.button) {
   font-family: 'NeusaMedium';
   color: rgb(128, 130, 133);
   text-transform: uppercase;
+  font-size: 1.7em;
 }
 
-/* set font size for Mobile MENU */
-.top-bar .toggle-topbar a {
-  font-size: 1.1em;
-  line-height: 1.2;
-}
-/* set font size for NAV bar */
-.top-bar-section ul li a {
-  font-size: 1.2em;
-  line-height: 1.2;
-}
-
-.side-nav li a { font-size: 1.75em; }
-
-.side-nav li a:not(.button),
-.top-bar-section ul li a,
-.top-bar-section li:not(.has-form) a:not(.button) {
-  color: rgb(128, 130, 133);
-}
-
-.side-nav li a:not(.button):hover,
+/* highlight selected top nav option */
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   background-color: rgb(245, 165, 151);
   color: #000;
 }
 
+/* highlight selected side nav option */
 .side-nav li.active > a:first-child:not(.button) {
-  color: #000;  
+  background-color: rgb(245, 165, 151);
+  color: #000;
 }
+
+/*.side-nav li.active > a:first-child:not(.button) {
+  color: #000;  
+}*/
 
 /*
 // ========================================================================
@@ -142,7 +166,7 @@ img {
 }
 
 .full-width {
-  width: 95%;
+  width: 100%;
   margin-left: 0px;
   margin-right: 0px;
   max-width: initial;
@@ -260,19 +284,6 @@ img.portfolio-thumb-mobile {
 /** Logo positioning **/
 .top-bar .title-area .name {
   padding: 15px;
-}
-
-/* Mobile Menu */
-.top-bar .toggle-topbar a {
-  top: 30px;
-  padding: 0px 15px 0px 0px;
-}
-
-/* Tablet+ Nav bar */
-.top-bar-section ul {
-  margin-top: 20px;
-  height: auto;
-  width: auto;
 }
 
 .footer-area {
