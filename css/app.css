@@ -28,6 +28,30 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.7em;
 }
 
+/* header area defaults */
+.header-area {
+  background: white;
+}
+
+.top-bar .title-area {
+  height: 80px;
+  margin-left: 10px;
+}
+
+.top-bar {
+  min-height: 80px;
+  height: 80px;
+}
+
+.top-bar .name {
+  height: 80px;
+}
+
+/* header area - shift logo down */
+.top-bar .title-area .name {
+  padding: 15px;
+}
+
 /* mobile MENU defaults */
 .top-bar .toggle-topbar a,
 .top-bar .toggle-topbar.menu-icon a {
@@ -59,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   width: auto;*/
 }
 
-/* top nav - highlight selected option */
+/* top nav - highlight option when selected */
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   background-color: rgb(245, 165, 151);
   color: #000;
@@ -75,10 +99,17 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.7em;
 }
 
-/* highlight selected side nav option */
+/* side nav - highlight option when selected */
 .side-nav li.active > a:first-child:not(.button) {
   background-color: rgb(245, 165, 151);
   color: #000;
+}
+
+/* footer area defaults */
+.footer-area {
+  min-height: 100px;
+  margin-top: 20px;
+  background: white;
 }
 
 /*
@@ -142,14 +173,6 @@ h1, h2, h3, h4, h5, h6 {
 img {
   margin-bottom: 10px;
   height: auto !important;
-}
-
-.header-area {
-  background: white;
-}
-
-.footer-area {
-  background: white;
 }
 
 .pull-left {
@@ -256,34 +279,4 @@ img.portfolio-thumb {
 
 img.portfolio-thumb-mobile {
   margin: 6px;
-}
-
-/*
-// ========================================================================
-// HEADER POSITIONING
-// ========================================================================
-*/
-
-.top-bar {
-  min-height: 80px;
-  height: 80px;
-}
-
-.top-bar .title-area {
-  height: 80px;
-  margin-left: 10px;
-}
-
-.top-bar .name {
-  height: 80px;
-}
-
-/** Logo positioning **/
-.top-bar .title-area .name {
-  padding: 15px;
-}
-
-.footer-area {
-  min-height: 100px;
-  margin-top: 20px;
 }
