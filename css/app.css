@@ -18,6 +18,7 @@
 body {
   font-family: Campton-Light;
   color: rgb(128, 130, 133);
+  padding: 0 10px 0 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -58,6 +59,12 @@ h1, h2, h3, h4, h5, h6 {
   width: auto;*/
 }
 
+/* top nav - highlight selected option */
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background-color: rgb(245, 165, 151);
+  color: #000;
+}
+
 /* side nav defaults */
 .side-nav li a,
 .side-nav li a:not(.button),
@@ -68,21 +75,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.7em;
 }
 
-/* highlight selected top nav option */
-.top-bar-section li:not(.has-form) a:not(.button):hover {
-  background-color: rgb(245, 165, 151);
-  color: #000;
-}
-
 /* highlight selected side nav option */
 .side-nav li.active > a:first-child:not(.button) {
   background-color: rgb(245, 165, 151);
   color: #000;
 }
-
-/*.side-nav li.active > a:first-child:not(.button) {
-  color: #000;  
-}*/
 
 /*
 // ========================================================================
@@ -245,7 +242,7 @@ img#sjlogo {
 }
 
 img#sjlogo-small {
-  width: 200px !important;
+  width: 240px !important;
 }
 
 img.social-icon {
