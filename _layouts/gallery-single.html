@@ -7,7 +7,6 @@ layout: default
 </div>
 
 <div class="large-9 columns">
-
   <div class="row">
     <div class="large-12 columns">
       <ul class="example-orbit" data-orbit>
@@ -16,9 +15,22 @@ layout: default
             <img src="{{ image.url }}"/>
           </li>
         {% endfor %}
-      </ul>
+      </ul>      
     </div>
   </div>
 
+  <div class="row">
+    <div class="large-11 columns">
+    </div>
+    <div class="large-1 columns">    
+      <p><img src="{{ "/imgs/thumb_icon.png" | prepend: site.baseurl }}"></p>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="large-12 columns">    
+      <p>{{ page.desc }}</p>
+    </div>
+  </div>
 </div>
 
