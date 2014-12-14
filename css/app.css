@@ -15,12 +15,15 @@
   src: url('../fonts/The Northern Block Ltd - Neusa-Medium.otf');
 }
 
+/* whole page defaults */
 body {
   font-family: Campton-Light;
   color: rgb(128, 130, 133);
   padding: 0 10px 0 0;
+  background-color: white;
 }
 
+/* menu item defaults */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'NeusaMedium';
   color: rgb(128, 130, 133);
@@ -29,18 +32,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* header area defaults */
-.header-area {
-  background: white;
+.top-bar {
+  min-height: 80px;
+  height: 80px;
 }
 
 .top-bar .title-area {
   height: 80px;
   margin-left: 10px;
-}
-
-.top-bar {
-  min-height: 80px;
-  height: 80px;
 }
 
 .top-bar .name {
@@ -109,7 +108,6 @@ h1, h2, h3, h4, h5, h6 {
 .footer-area {
   min-height: 100px;
   margin-top: 20px;
-  background: white;
 }
 
 /*
