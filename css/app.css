@@ -1,9 +1,3 @@
-/*
-// ========================================================================
-// FONTS
-// ========================================================================
-*/
-
 .Campton-Light {
 	font-family: Campton-Light;
 	font-weight: normal;
@@ -32,24 +26,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* header area defaults */
-.top-bar {
+.top-bar,
+.top-bar .title-area,
+.top-bar .name {
   min-height: 80px;
   height: 80px;
   background: #fff;
 }
 
-.top-bar .title-area {
-  height: 80px;
-  margin-left: 10px;
-}
-
-.top-bar .name {
-  height: 80px;
-}
-
-/* header area - shift logo down */
+/* header area - shift logo down & right */
 .top-bar .title-area .name {
   padding: 15px;
+  margin-left: 0px;
 }
 
 /* mobile MENU defaults */
@@ -203,7 +191,7 @@ img#sjlogo {
 }
 
 img#sjlogo-small {
-  width: 240px !important;
+  width: 210px !important;
 }
 
 img.social-icon {
