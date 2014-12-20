@@ -13,7 +13,7 @@
 body {
   font-family: Campton-Light;
   color: rgb(128, 130, 133);
-  padding: 0 10px 0 0;
+  padding: 0 0 0 0;
   background-color: white;
 }
 
@@ -159,6 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 
 img {
+  max-width: 95%;
   margin-bottom: 10px;
   height: auto !important;
 }
