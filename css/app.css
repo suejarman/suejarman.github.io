@@ -1,3 +1,4 @@
+/* load fonts */
 .Campton-Light {
 	font-family: Campton-Light;
 	font-weight: normal;
@@ -13,7 +14,6 @@
 body {
   font-family: Campton-Light;
   color: rgb(128, 130, 133);
-  padding: 0 0 0 0;
   background-color: white;
 }
 
@@ -69,8 +69,6 @@ h1, h2, h3, h4, h5, h6 {
 /* top nav - shift down */
 .top-bar-section ul {
   margin-top: 20px;
-/*  height: auto;
-  width: auto;*/
 }
 
 /* top nav - highlight option when selected */
