@@ -34,7 +34,4 @@ images:
     thm: /imgs/illustration/thumbs/street_scene_thm.jpg
   - url: /imgs/illustration/images/tgs_1_por.jpg
     thm: /imgs/illustration/thumbs/tgs_1_thm.jpg
-
-Sam-peticoatshigh.jpg
-
 ---
