@@ -15,6 +15,7 @@ body {
   font-family: Campton-Light;
   color: rgb(128, 130, 133);
   background-color: white;
+  max-width: 94%;
 }
 
 /* menu item defaults */
@@ -117,11 +118,12 @@ h1, h2, h3, h4, h5, h6 {
  }
 
 #home-page-images img {
-  margin: 5px 10px;
+  margin-left: 10px;
   width: 100% !important;
   height: auto !important;
 }
 
+/* highlight currently selected image */
 #home-page-images a:hover img {
     opacity: 0.6;
 }
@@ -157,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 
 img {
-  max-width: 94%;
+  max-width: 100%;
   margin-bottom: 10px;
   height: auto !important;
 }
