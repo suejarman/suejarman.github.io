@@ -1,3 +1,16 @@
 title: My Portfolio
   
-desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+desc: My portfolio contains examples of illustration, design, photography, art direction and styling. It includes concept development and visual outcomes for editorial, branding, advertising, communication and product design. It is a showcase of my commissioned, collaborative and personal projects.
+
+images:
+  - image_url: /imgs/home/art_direction.jpg
+    link_url: /galleries/art-direction.html
+
+  - image_url: /imgs/home/design.jpg
+    link_url: /galleries/design.html
+
+  - image_url: /imgs/home/illustration.jpg
+    link_url: /galleries/illustration.html
+
+  - image_url: /imgs/home/photography.jpg
+    link_url: /galleries/photography.html
