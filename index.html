@@ -4,7 +4,7 @@ menu_control: Home
 ---
 
 <section id="home-page-images">
-  {% for image in site.data.index_images.images %}
+  {% for image in site.data.index_content.images %}
     <a href="{{ image.link_url }}"><img src="{{ image.image_url }}"></a>
   {% endfor %}
 </section>
