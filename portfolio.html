@@ -10,17 +10,17 @@ permalink: /portfolio/
 </div>
 
 <div class="large-9 columns show-for-medium-up">
-  <h1>{{ site.data.portfolio_text.title }}</h1>
-  <p>{{ site.data.portfolio_text.desc }}</p>
-  {% for image in site.data.portfolio_text.images %}
+  <h1>{{ site.data.portfolio_content.title }}</h1>
+  <p>{{ site.data.portfolio_content.desc }}</p>
+  {% for image in site.data.portfolio_content.images %}
     <a href="{{ image.link_url }}"><img width=49% src="{{ image.image_url }}"></a>
   {% endfor %}
 </div>
 
 <div class="large-12 columns show-for-small-only">
-  <h1>{{ site.data.portfolio_text.title }}</h1>
-  <p>{{ site.data.portfolio_text.desc }}</p>
-  {% for image in site.data.portfolio_text.images %}
+  <h1>{{ site.data.portfolio_content.title }}</h1>
+  <p>{{ site.data.portfolio_content.desc }}</p>
+  {% for image in site.data.portfolio_content.images %}
     <a href="{{ image.link_url }}"><img src="{{ image.image_url }}"></a>
   {% endfor %}
 </div>
