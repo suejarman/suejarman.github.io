@@ -6,6 +6,7 @@ baseurl: ""
 port: 3000
 twitter_username: sue_jarman
 github_username:  suejarman
+tumblr_username: sue@suejarman.co.uk
 copyright_owner: Sue Jarman
 
 # Build settings
