@@ -1,15 +1,34 @@
 #!/bin/sh
 
-sed '/images:/,$d' ./_galleries/$1.md >./_galleries/$1.new
+function updateMarkdown {
 
-echo images: >>./_galleries/$1.new
+    markdownFile=./_galleries/$1.md
+    if [ -f $markdownFile ]; then
+        echo
+    else
+        echo "Error: $markdownFile does not exist"
+        exit
+    fi
 
-ls -d -1 imgs/$1/* >images.txt
-awk '/por/ {print "  - url: /" $0}
-     /thm/ {print "    thm: /" $0}' images.txt >>./_galleries/$1.new
+    sed '/images:/,$d' $markdownFile >$markdownFile.new
+    
+    echo images: >>$markdownFile.new
+    
+    ls -d -1 imgs/$1/* >images.txt
+    awk '/por/ {print "  - url: /" $0}
+         /thm/ {print "    thm: /" $0}' images.txt >>$markdownFile.new
+    
+    echo --- >>$markdownFile.new
+    
+    mv $markdownFile.new $markdownFile
+    
+    rm images.txt
+}
 
-echo --- >>./_galleries/$1.new
+if [ ${#@} == 0 ]; then
+    echo "Usage: $0 <gallery-name>"
+    echo "e.g. ./updateGallery.sh art-direction"
+    exit
+fi
 
-mv ./_galleries/$1.new ./_galleries/$1.md
-
-rm images.txt
+updateMarkdown $1
