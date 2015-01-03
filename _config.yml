@@ -1,9 +1,11 @@
 # Site settings
-title: suejarman.co.uk
+title: Sue Jarman
+description: Art, Design, Illustration & Photography
 email: sue@suejarman.co.uk
-url: "http://suejarman.co.uk"
-baseurl: ""
+url: http://suejarman.co.uk
+baseurl: ''
 port: 3000
+
 twitter_username: sue_jarman
 github_username:  suejarman
 tumblr_username: sue@suejarman.co.uk
