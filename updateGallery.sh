@@ -18,8 +18,9 @@ function updateMarkdown {
     
     ls -d -1 imgs/$1/* >images.txt
     awk '/_por./ {print "  - url: /" $0}
-         /_thm./ {print "    thm: /" $0}' images.txt >>$markdownFile.new
-    
+         /_thm./ {print "    thm: /" $0}
+         /_thm./ {print "    caption: "}' images.txt >>$markdownFile.new
+
     echo --- >>$markdownFile.new
     
     mv $markdownFile.new $markdownFile
