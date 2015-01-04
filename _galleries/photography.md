@@ -11,6 +11,8 @@ images:
   - url: /imgs/photography/1_alpine_mountains_por.jpg
     thm: /imgs/photography/1_alpine_mountains_thm.jpg
     caption: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  - url: /imgs/photography/2_pool_corfu_tui_1_por.jpg
+    thm: /imgs/photography/2_pool_corfu_tui_1_thm.jpg
   - url: /imgs/photography/3_pool_corfu_tui_2_por.jpg
     thm: /imgs/photography/3_pool_corfu_tui_2_thm.jpg
   - url: /imgs/photography/4_snowberry_norway_por.jpg

@@ -35,7 +35,7 @@ images:
   - url: /imgs/illustration/13_northern_lights_por.jpg
     thm: /imgs/illustration/13_northern_lights_thm.jpg
   - url: /imgs/illustration/14_starling_night_por.jpg
-    thm: /imgs/illustration/14_starling_night_thm.gif
+    thm: /imgs/illustration/14_starling_night_thm.jpg
   - url: /imgs/illustration/15_birds_in_trees_por.jpg
     thm: /imgs/illustration/15_birds_in_trees_thm.jpg
   - url: /imgs/illustration/16_silence_figure_por.jpg
