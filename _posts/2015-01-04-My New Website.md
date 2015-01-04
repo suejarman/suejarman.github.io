@@ -15,7 +15,7 @@ design.
 The backdrop to my first blog image is my favourite 1950s
 table. The ceramic letters were found on a pre Christmas
 day out to Cambridge, with my designer friends Faye and
-Trudy, trudy@buttongirldesigns.co.uk. The colours, well
+Trudy ([Buttongirl Designs](http://buttongirl.co.uk)). The colours, well
 they’re a bit of a personal signature!!
 
 I’m inspired by anything and everything, but especially
