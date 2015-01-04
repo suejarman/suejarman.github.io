@@ -8,30 +8,40 @@ menu_control: Portfolio
 desc: Traditional and vector illustration for editorial, branding, advertising and surface design.
 
 images:
-  - url: /imgs/illustration/images/antler_por.jpg
-    thm: /imgs/illustration/thumbs/antlerchamber_thm.jpg
-  - url: /imgs/illustration/images/bloodylibrary_por.jpg
-    thm: /imgs/illustration/thumbs/bloodylibrary_thm.jpg
-  - url: /imgs/illustration/images/curves_1_por.jpg
-    thm: /imgs/illustration/thumbs/curves_1_thm.jpg
-  - url: /imgs/illustration/images/curves_2_por.jpg
-    thm: /imgs/illustration/thumbs/curves_2_thm.jpg
-  - url: /imgs/illustration/images/curves_3_por.jpg
-    thm: /imgs/illustration/thumbs/curves_3_thm.jpg
-  - url: /imgs/illustration/images/ghost_1_por.jpg
-    thm: /imgs/illustration/thumbs/ghost_1_thm.jpg
-  - url: /imgs/illustration/images/ghost_2_por.jpg
-    thm: /imgs/illustration/thumbs/ghost_2_thm.jpg
-  - url: /imgs/illustration/images/northernlights_por.jpg
-    thm: /imgs/illustration/thumbs/northernlights_thm.jpg
-  - url: /imgs/illustration/images/redriding_por.jpg
-    thm: /imgs/illustration/thumbs/redriding_thm.jpg
-  - url: /imgs/illustration/images/silence_por.jpg
-    thm: /imgs/illustration/thumbs/silence_thm.jpg
-  - url: /imgs/illustration/images/starling_por.jpg
-    thm: /imgs/illustration/thumbs/starling_thm.gif
-  - url: /imgs/illustration/images/street_scene_por.jpg
-    thm: /imgs/illustration/thumbs/street_scene_thm.jpg
-  - url: /imgs/illustration/images/tgs_1_por.jpg
-    thm: /imgs/illustration/thumbs/tgs_1_thm.jpg
+  - url: /imgs/illustration/1_antler_postcard_por.jpg
+    thm: /imgs/illustration/1_antler_postcard_thm.jpg
+  - url: /imgs/illustration/2_bloody_chamber_por.jpg
+    thm: /imgs/illustration/2_bloody_chamber_thm.jpg
+  - url: /imgs/illustration/3_bloody_library_por.jpg
+    thm: /imgs/illustration/3_bloody_library_thm.jpg
+  - url: /imgs/illustration/4_redriding_forest_por.jpg
+    thm: /imgs/illustration/4_redriding_forest_thm.jpg
+  - url: /imgs/illustration/5_puss_in_boots_por.jpg
+    thm: /imgs/illustration/5_puss_in_boots_thm.jpg
+  - url: /imgs/illustration/6_ghosts_shadows_1_por.jpg
+    thm: /imgs/illustration/6_ghosts_shadows_1_thm.jpg
+  - url: /imgs/illustration/7_ghosts_shadows_2_por.jpg
+    thm: /imgs/illustration/7_ghosts_shadows_2_thm.jpg
+  - url: /imgs/illustration/8_line_of_houses_por.jpg
+    thm: /imgs/illustration/8_line_of_houses_thm.jpg
+  - url: /imgs/illustration/9_thinkglobalsport_vector_illustration_por.jpg
+    thm: /imgs/illustration/9_thinkglobalsport_vector_illustration_thm.jpg
+  - url: /imgs/illustration/10_lingerie_figure_1_por.jpg
+    thm: /imgs/illustration/10_lingerie_figure_1_thm.jpg
+  - url: /imgs/illustration/11_lingerie_figure_3_por.jpg
+    thm: /imgs/illustration/11_lingerie_figure_3_thm.jpg
+  - url: /imgs/illustration/12_lingerie_figure_2_por.jpg
+    thm: /imgs/illustration/12_lingerie_figure_2_thm.jpg
+  - url: /imgs/illustration/13_northern_lights_por.jpg
+    thm: /imgs/illustration/13_northern_lights_thm.jpg
+  - url: /imgs/illustration/14_starling_night_por.jpg
+    thm: /imgs/illustration/14_starling_night_thm.gif
+  - url: /imgs/illustration/15_birds_in_trees_por.jpg
+    thm: /imgs/illustration/15_birds_in_trees_thm.jpg
+  - url: /imgs/illustration/16_silence_figure_por.jpg
+    thm: /imgs/illustration/16_silence_figure_thm.jpg
+  - url: /imgs/illustration/17_samuels_dresses_wedding_por.jpg
+    thm: /imgs/illustration/17_samuels_dresses_wedding_thm.jpg
+  - url: /imgs/illustration/18_linepoint_figure_por.jpg
+    thm: /imgs/illustration/18_linepoint_figure_thm.jpg
 ---
