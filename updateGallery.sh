@@ -6,7 +6,9 @@ function updateMarkdown {
     if [ -f $markdownFile ]; then
         echo
     else
+        echo
         echo "Error: $markdownFile does not exist"
+        echo
         exit
     fi
 
@@ -15,8 +17,8 @@ function updateMarkdown {
     echo images: >>$markdownFile.new
     
     ls -d -1 imgs/$1/* >images.txt
-    awk '/por/ {print "  - url: /" $0}
-         /thm/ {print "    thm: /" $0}' images.txt >>$markdownFile.new
+    awk '/_por./ {print "  - url: /" $0}
+         /_thm./ {print "    thm: /" $0}' images.txt >>$markdownFile.new
     
     echo --- >>$markdownFile.new
     
@@ -26,8 +28,10 @@ function updateMarkdown {
 }
 
 if [ ${#@} == 0 ]; then
+    echo
     echo "Usage: $0 <gallery-name>"
     echo "e.g. ./updateGallery.sh art-direction"
+    echo
     exit
 fi
 
