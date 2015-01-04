@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  
+title: My new website is now live
 menu_control: Blog
 date:   2015-01-02
 ---
