@@ -6,17 +6,19 @@ menu_control: Contact
 
 <div class="medium-4 columns show-for-medium-up">
   <b>Address:</b>
-  <textarea rows="5">
+  <textarea disabled rows="5">
   {{ site.data.contact_content.address }}
   </textarea>
 
   <b>Email:</b>
   <a href="mailto:{{ site.data.contact_content.email }}">
-    <textarea>{{ site.data.contact_content.email }}</textarea>
+  <textarea disabled>
+  {{ site.data.contact_content.email }}
+  </textarea>
   </a>
 
   <b>Tel:</b>
-  <textarea>
+  <textarea disabled>
   {{ site.data.contact_content.tel }}
   </textarea>
 
@@ -30,17 +32,19 @@ menu_control: Contact
 
 <div class="large-12 columns show-for-small-only">
   <b>Address:</b>
-  <textarea rows="5">
+  <textarea disabled rows="5">
   {{ site.data.contact_content.address }}
   </textarea>
 
   <b>Email:</b>
   <a href="mailto:{{ site.data.contact_content.email }}">
-    <textarea>{{ site.data.contact_content.email }}</textarea>
+  <textarea disabled>
+  {{ site.data.contact_content.email }}
+  </textarea>
   </a>
 
   <b>Tel:</b>
-  <textarea>
+  <textarea disabled>
   {{ site.data.contact_content.tel }}
   </textarea>
 
