@@ -8,6 +8,9 @@ menu_control: Portfolio
 desc: Traditional and vector illustration for editorial, branding, advertising and surface design.
 
 images:
+  - url: /imgs/illustration/valentines_infographic_1_por.jpg
+    thm: /imgs/illustration/valentines_infographic_crop1_thm.jpg
+    caption: 
   - url: /imgs/illustration/1_antler_postcard_por.jpg
     thm: /imgs/illustration/1_antler_postcard_thm.jpg
     caption: 
