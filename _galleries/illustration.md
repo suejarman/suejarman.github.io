@@ -10,7 +10,13 @@ desc: Traditional and vector illustration for editorial, branding, advertising a
 images:
   - url: /imgs/illustration/valentines_infographic_1_por.jpg
     thm: /imgs/illustration/valentines_infographic_crop1_thm.jpg
-    caption: 
+    caption:
+  - url: /imgs/illustration/valentines_infographic_2_por.jpg
+    thm: /imgs/illustration/valentines_infographic_2_thm.jpg
+    caption:
+  - url: /imgs/illustration/upper_berth_house_of_illustration_por.jpg
+    thm: /imgs/illustration/upper_berth_house_of_illustration_thm.jpg
+    caption:
   - url: /imgs/illustration/1_antler_postcard_por.jpg
     thm: /imgs/illustration/1_antler_postcard_thm.jpg
     caption: 
