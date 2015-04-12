@@ -207,3 +207,40 @@ img.portfolio-thumb {
 img.portfolio-thumb-mobile {
   margin: 6px;
 }
+
+/*
+// ========================================================================
+// Galleries
+// ========================================================================
+*/
+
+/* Shift gallery images down a little from top */
+.visible-img img {
+  padding-top: 2%;
+  height: 95%;
+  }
+
+/* set the caption colour and shift below the image */
+.clearing-caption {
+  background: none;
+  color: black;
+  top: 101%;
+}
+
+/* Ensure caption is still visible */
+.clearing-assembled .clearing-container .visible-img {
+  overflow: visible;
+}
+    
+/* Set the background color for all galleries */
+.clearing-assembled .clearing-container .visible-img {
+  background-color: WhiteSmoke;
+  }
+.clearing-blackout {
+  background-color: WhiteSmoke;
+  }
+
+/* Don't display the carousel in any gallery */
+.clearing-container .carousel {
+  display: none;
+}
