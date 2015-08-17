@@ -14,7 +14,9 @@ bathing meets fashion – as long as you ignore the competitive triathlon images
 
 ![Swimming Edit]( {{ site.baseurl }}/imgs/blog/swim_edit_suejarman.jpg "Swimming Edit")
 
-A few of my favourite finds this month have been a tiny bathing cartoon from a 1956 ‘Punch’ magazine, a railway poster from a 1934 art review catalogue, and the fabulous front cover of ‘Suitcase’ magazine. Although all created several decades apart but, just sit seamlessly together.
+A few of my favourite finds this month have been a tiny bathing cartoon from a 1956 ‘Punch’ magazine, a railway poster 
+from a 1934 art review catalogue, and the fabulous front cover of ‘Suitcase’ magazine. Although created several 
+decades apart they all just sit seamlessly together.
 
 I love summer.
 
