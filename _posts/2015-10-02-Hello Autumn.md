@@ -15,7 +15,7 @@ to go anywhere at the moment without stumbling across, not that I’m complainin
 
 ![Sir Peter Black & Gary Hume]( {{ site.baseurl }}/imgs/blog/blake-hume.jpg "Sir Peter Black & Gary Hume")
 
-Images: ‘Regents Park The Runaway Donkeys’ by Sir Peter Blake;  & ‘Morning’ by Gary Hume
+Images: ‘Regents Park The Runaway Donkeys’ by Sir Peter Blake, and ‘Morning’ by Gary Hume
 
 Also, I had a bit of a Victoriana day last Thursday, with a visit to 100% Design at Olympia, it’s new location, with 
 Earls Court Exhibition Centre now being closed, very sad. Then later, at Alexandra Palace to see Florence and the Machine, 
