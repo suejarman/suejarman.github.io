@@ -12,7 +12,7 @@ space. There’s just something wonderful about black and white drawings.
 
 ![Pool Study]( {{ site.baseurl }}/imgs/blog/pool-study.jpg "Pool Study")
 
-Image:‘Pool Study’by Patsy McArthur - charcoal on paper.
+Image: ‘Pool Study’by Patsy McArthur - charcoal on paper.
 
 A surprise find - I didn’t think that a trip to source some bathroom tiles would take me aboard a fantastic canal barge. The 
 rentable accommodation, now on my places to stay list, was moored outside Bert & May’s tile showroom, Bethnal Green. It included a 
