@@ -4,13 +4,13 @@ desc: My portfolio contains examples of illustration, design, photography, art d
 
 images:
   - image_url: /imgs/home/art_direction.jpg
-    link_url: /galleries/art-direction.html
+    link_url: /galleries/art-direction/
 
   - image_url: /imgs/home/design.jpg
-    link_url: /galleries/design.html
+    link_url: /galleries/design/
 
   - image_url: /imgs/home/illustration.jpg
-    link_url: /galleries/illustration.html
+    link_url: /galleries/illustration/
 
   - image_url: /imgs/home/photography.jpg
-    link_url: /galleries/photography.html
+    link_url: /galleries/photography/
