@@ -40,23 +40,19 @@
     <script src="{{ "/js/vendor/modernizr.js" | prepend: site.baseurl }}"></script>
   </head>
   
-  <body>  
-    <div class="row full-width header-area">
-      {% include header.html %}
-    </div>
+  <body>
 
-    <div class="row full-width">
-      {{ content }}
-    </div>
-
-    <div class="row full-width footer-area">
-      {% include footer.html %}
-    </div>
+    {{ content }}
 
     <script src="{{ "/js/vendor/jquery.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/vendor/fastclick.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/foundation.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/responsiveHeight.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/scrollToTop.js" | prepend: site.baseurl }}"></script>
     <script>
       $(document).foundation();
     </script>
+
   </body>
+
 </html>
