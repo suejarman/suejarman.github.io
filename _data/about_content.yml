@@ -1,7 +1,17 @@
 images:
   - url: /imgs/about/2_aboutme.jpg
   
+<div class="large-12 columns border-none index-style">
+    <div class="window-caption color-white">
+        <div class="window-caption-middle">
+            <p class="font-xlarge">SUE JARMAN</p>
+            <p class="font-large">ILLUSTRATION DESIGN ANIMATION</p>
+            <p class="font-medium">website under construction</p>
+        </div>
+        
 paragraphs:
+  - paragraph: ABOUT
+  
   - paragraph: I’m a designer and image-maker producing illustration, graphic design and creative ideas for print and digital platforms.
 
   - paragraph: As a visual problem solver I listen, analyse and communicate – enabling me to deliver visually diverse work and fresh ideas for a broad range of individual clients and brands.
