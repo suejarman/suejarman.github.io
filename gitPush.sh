@@ -1,3 +1,3 @@
-git add -A
-git commit -am 'Auto commit'
+git add --all
+git commit -am 'Auto commit' --all
 git push
