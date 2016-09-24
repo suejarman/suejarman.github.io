@@ -16,7 +16,7 @@
 */
 
 body {
-  font-family: Rift-Regular;
+  font-family: FuturaPT-Book;
   color: white;
   background-color: rgb(8, 65, 95);
   max-width: auto;
@@ -291,6 +291,9 @@ h1 {
   letter-spacing: 1.5PX;
   word-spacing: 3PX;
 }
+.font-rift {
+  font-family: Rift-Regular;
+}
 
 .font-large {
   font-size: 3.0em;
@@ -299,14 +302,14 @@ h1 {
 }
 
 .font-medium {
-  font-size: 1.0em;
-  letter-spacing: 1.5PX;
-  word-spacing: 3PX;
+  font-size: 2.5em;
+  letter-spacing: 2.1PX;
+  word-spacing: 4PX;
 }
 
 .font-small {
-  font-size: 0.9em;
-  letter-spacing: 60;
+  font-size: 1.5em;
+  letter-spacing: 1.4PX;
 }
 
 .font-underline {
