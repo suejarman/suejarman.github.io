@@ -290,6 +290,7 @@ h1 {
   font-size: 8.0em;
   letter-spacing: 1.5PX;
   word-spacing: 2PX;
+  line-height: 1em;
 }
 .font-rift {
   font-family: Rift-Regular;
