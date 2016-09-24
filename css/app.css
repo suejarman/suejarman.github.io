@@ -343,6 +343,9 @@ h1 {
 
 @media only screen and (max-width: 400px) {
   .font-dynamic { font-size: 0.9em; }
+  .font-xlarge { font-size: 4.7em; }
+  .font-medium { font-size: 1.5em; }
+  .font-small { font-size: 1.2em; }
   #logo-index { height: 30px; }
 }
 
