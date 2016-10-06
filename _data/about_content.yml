@@ -1,5 +1,4 @@
-images:
-  - url: /imgs/about/2_aboutme.jpg
+
   
 paragraphs:
   - paragraph: ABOUT
@@ -17,3 +16,6 @@ paragraphs:
   - paragraph: I produce hand drawn, vector and 3D illustrations and info-graphics; design logos, brands and websites; produce layout and promotional material; develop still, moving and animated illustrations and graphics. I also help with the visual and content aspects of developing a social media presence for clients, from providing and developing tailored visual imagery and content through to more technical aspects of editing and formatting content.
   
   - paragraph: I’m also continuously and on-going working on personal and collaborative projects.
+  
+  images:
+  - url: /imgs/about/2_aboutme.jpg
