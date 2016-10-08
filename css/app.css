@@ -1,77 +1,5 @@
 /*
 // ========================================================================
-// Load fonts
-// ========================================================================
-*/
-
-@font-face {
-  font-family: 'NeusaMedium';
-  src: url('../fonts/The Northern Block Ltd - Neusa-Medium.otf');
-}
-
-/*
-// ========================================================================
-// whole page defaults
-// ========================================================================
-*/
-
-body {
-  font-family: FuturaPT-Book;
-  color: white;
-  background-color: rgb(8, 65, 95);
-  max-width: auto;
-}
-
-h1 {
-  color: white;
-}
-
-.wallpaper {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  z-index: -1;
-}
-
-.full-width {
-  width: 100%;
-  margin-left: 0px;
-}
-
-/* top bar - place menu on top of background */
-.top-bar {
-  background-color: transparent;
-}
-.top-bar-section {
-  background-color: transparent !important;
-  text-align: center;
-}
-.top-bar-section ul li {
-  background-color: transparent !important;
-}
-.top-bar-section ul li > a {
- background-color: transparent !important;
-}
-
-/*top bar nav - highlight option when selected */
-.top-bar-section li:not(.has-form) a:not(.button):hover {
-  font-weight: bold;
-}
-
-/* footer area defaults */
-.footer-area {
-  height: 50px;
-  line-height: 50px;
-  bottom: 0px;
-  position: fixed;
-  width: 100%;
-}
-
-/*
-// ========================================================================
 // Generic element styles
 // ========================================================================
 */
@@ -106,6 +34,10 @@ h1 {
 
 .on-dark-green {
   background-color: rgb(96, 114, 72);
+}
+
+.on-navy {
+  background-color: rgb(8, 65, 95);
 }
 
 .on-contact {
@@ -167,6 +99,78 @@ h1 {
 
 .sticky-column{
   position: fixed;
+}
+
+/*
+// ========================================================================
+// Load fonts
+// ========================================================================
+*/
+
+@font-face {
+  font-family: 'NeusaMedium';
+  src: url('../fonts/The Northern Block Ltd - Neusa-Medium.otf');
+}
+
+/*
+// ========================================================================
+// whole page defaults
+// ========================================================================
+*/
+
+body {
+  font-family: FuturaPT-Book;
+  color: white;
+  background-color: on-navy;
+  max-width: auto;
+}
+
+h1 {
+  color: white;
+}
+
+.wallpaper {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.full-width {
+  width: 100%;
+  margin-left: 0px;
+}
+
+/* top bar menu - center on top of background */
+.top-bar {
+  background-color: transparent;
+  text-align: center;
+}
+.top-bar-section {
+  background-color: transparent !important;
+}
+.top-bar-section ul li {
+  background-color: transparent !important;
+}
+.top-bar-section ul li > a {
+ background-color: transparent !important;
+}
+
+/* top bar menu - highlight option when selected */
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  font-weight: bold;
+}
+
+/* footer area defaults */
+.footer-area {
+  height: 50px;
+  line-height: 50px;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
 }
 
 /*

@@ -5,46 +5,28 @@ menu_control: About
 permalink: /about/
 ---
 
-<div class="large-4 columns show-for-large-up">
-  {% for image in site.data.about_content.images %}
-    <img src="{{ image.url }}">
-  {% endfor %}
-</div>
-
-<div class="large-8 columns show-for-large-up">
-  <h1>{{ site.data.about_content.name }}</h1>
+<div class="large-12 columns border-none">
   
-  {% for text in site.data.about_content.paragraphs %}
-    <p>{{ text.paragraph }}</p>
-  {% endfor %}
-</div>
+  <div class="border-all-sides on-white">
+    <div class="row border-all-sides on-biscuit">
+      
+      <div class="large-8 columns">
+        <h1>{{ site.data.about_content.title }}</h1>
+        <p class="font-medium color-white">
+          {% for text in site.data.about_content.paragraphs %}
+            <p>{{ text.paragraph }}</p>
+          {% endfor %}
+        </p>
+      </div>
+      <div class="large-4 columns">
+        <img src="/imgs/about/me-illustration.png">
+      </div>
+      
+    </div>
+  </div>
 
-
-<div class="medium-5 columns show-for-medium-only">
   {% for image in site.data.about_content.images %}
-    <img src="{{ image.url }}">
+    <img class="border-all-sides" src="{{ image.url }}">
   {% endfor %}
-</div>
 
-<div class="medium-7 columns show-for-medium-only">
-  <h1>{{ site.data.about_content.name }}</h1>
-  
-  {% for text in site.data.about_content.paragraphs %}
-    <p>{{ text.paragraph }}</p>
-  {% endfor %}
-</div>
-
-
-<div class="large-12 columns show-for-small-only">
-  <h1>{{ site.data.about_content.name }}</h1>
-  
-  {% for text in site.data.about_content.paragraphs %}
-    <p>{{ text.paragraph }}</p>
-  {% endfor %}
-</div>
-
-<div class="large-12 columns show-for-small-only">
-  {% for image in site.data.about_content.images %}
-    <img src="{{ image.url }}">
-  {% endfor %}
 </div>
