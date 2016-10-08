@@ -44,31 +44,21 @@ h1 {
 /* top bar - place menu on top of background */
 .top-bar {
   background-color: transparent;
-  height: 50px;
-  line-height: 50px;
 }
-
-/* top bar - let background show through menu */
 .top-bar-section {
   background-color: transparent !important;
+  text-align: center;
 }
 .top-bar-section ul li {
   background-color: transparent !important;
 }
 .top-bar-section ul li > a {
-  background-color: transparent !important;
+ background-color: transparent !important;
 }
 
-.toggle-topbar {
-  color: white;
-}
-
-/*menu-icon*/
-
-/* top bar nav - highlight option when selected */
+/*top bar nav - highlight option when selected */
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   font-weight: bold;
-  color: white;
 }
 
 /* footer area defaults */
