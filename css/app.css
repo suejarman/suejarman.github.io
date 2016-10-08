@@ -88,6 +88,10 @@ h1 {
   background-color: rgb(166, 160, 126);
 }
 
+.on-black {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
 .on-light-green {
   background-color: rgb(116, 137, 81);
 }
