@@ -87,6 +87,11 @@
   padding: 0px 50px 0 0;
 }
 
+.border-all-except-top {
+  /* top right bottom left */
+  padding: 0px 50px 50px 50px;
+}
+
 .border-all-sides {
   padding: 50px 50px 50px 50px;
 }
@@ -212,12 +217,6 @@ h1 {
   vertical-align: middle;
 }
 
-.border-dynamic {
-  /* top right bottom left */
-  padding: 0 0 0 0;
-  /*padding: 100px;*/
-}
-
 /*
 // ========================================================================
 // Image and logo sizing
@@ -297,12 +296,6 @@ h1 {
 // ========================================================================
 */
 
-.font-dynamic {
-  font-size: 1.2em;
-  letter-spacing: 100;
-  line-height: 1.2em;
-}
-
 .font-xlarge {
   font-size: 8.0em;
   letter-spacing: 1.5PX;
@@ -337,31 +330,27 @@ h1 {
 
 /* media queries to resize fonts for small devices */
 @media only screen and (min-width: 1000px) {
-  .font-dynamic { font-size: 1.1em; }
-  #logo-index { height: 70px; }
+  .font-xlarge { font-size: 4.7em; }
 }
 
 @media only screen and (max-width: 1000px) {
-  .font-dynamic { font-size: 1.0em; }
-  #logo-index { height: 55px; }
+  .font-xlarge { font-size: 4.7em; }
 }
 
 @media only screen and (max-width: 800px) {
-  .font-dynamic { font-size: 0.9em; }
-  #logo-index { height: 40px; }
+  .font-xlarge { font-size: 4.7em; }
 }
 
 @media only screen and (max-width: 600px) {
-  .font-dynamic { font-size: 1.1em; }
-  #logo-index { height: 50px; }
+  .font-xlarge { font-size: 4.7em; }
 }
 
 @media only screen and (max-width: 400px) {
-  .font-dynamic { font-size: 0.9em; }
   .font-xlarge { font-size: 4.4em; }
   .font-medium { font-size: 1.5em; }
   .font-small { font-size: 1.2em; }
-  #logo-index { height: 30px; }
+  .border-all-sides { padding: 15px 15px 15px 15px; }
+  .border-all-except-top { padding: 0px 15px 15px 15px; }
 }
 
 /*
@@ -375,5 +364,4 @@ h1 {
   .showcase-block { margin: 0px 0px 20px 0px; }
   .sticky-column { position: initial; }
   .top-bar-section { margin-top: 0px; }
-  .border-dynamic { padding-bottom: 0px; }
 }
