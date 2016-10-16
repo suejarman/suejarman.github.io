@@ -28,6 +28,10 @@
   background-color: rgb(116, 137, 81);
 }
 
+.on-charcoal {
+  background-color: rgb(26, 26, 26);
+}
+
 .on-dark-grey {
   background-color: rgb(89, 89, 89);
 }
@@ -130,8 +134,7 @@
 body {
   font-family: FuturaPT-Book;
   color: white;
-  background-color: on-navy;
-  max-width: auto;
+  max-width: 100%;
 }
 
 h1 {
@@ -153,10 +156,12 @@ h1 {
   margin-left: 0px;
 }
 
-/* top bar menu - center on top of background */
+/* top bar defaults - center on top of background */
 .top-bar {
   background-color: transparent;
   text-align: center;
+  top: 15px;
+  height: 75px;
 }
 .top-bar-section {
   background-color: transparent !important;
@@ -165,7 +170,21 @@ h1 {
   background-color: transparent !important;
 }
 .top-bar-section ul li > a {
- background-color: transparent !important;
+  background-color: transparent !important;
+}
+
+/* top bar page overrides */
+#about .top-bar {
+  color: rgb(26, 26, 26);
+}
+#about .top-bar-section {
+  color: rgb(26, 26, 26);
+}
+#about .top-bar-section ul li {
+  color: rgb(26, 26, 26);
+}
+#about .top-bar-section ul li > a {
+  color: rgb(26, 26, 26);
 }
 
 /* top bar menu - highlight option when selected */

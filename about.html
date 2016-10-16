@@ -1,32 +1,38 @@
 ---
-layout: default
+layout: plain-page
 title: About
 menu_control: About
 permalink: /about/
 ---
-
+<body id='about'>
+  
 <div class="border-none">
   
-  <div class="border-all-sides on-white">
+  <div class="border-all-except-top on-white">
     <div class="row border-all-sides on-ochre">
       
-      <div class="large-8 columns">
+      <div class="medium-8 columns">
         <h1 class="font-probapro-xl semi-transparent">{{ site.data.about_content.title }}</h1>
-        <p class="font-medium color-white">
+        <p class="font-medium">
           {% for text in site.data.about_content.paragraphs %}
-            <p>{{ text.paragraph }}</p>
+            <p class="color-white">{{ text.paragraph }}</p>
           {% endfor %}
         </p>
       </div>
-      <div class="large-4 columns">
+      <div class="medium-4 columns">
         <img src="/imgs/about/me-illustration.png">
       </div>
       
     </div>
+    
+    <div class="text-center">
+      {% for image in site.data.about_content.images %}
+        <img class="border-none" src="{{ image.url }}">
+      {% endfor %}
+    </div>
+    
   </div>
 
-  {% for image in site.data.about_content.images %}
-    <img class="border-all-except-top" src="{{ image.url }}">
-  {% endfor %}
-
 </div>
+
+</body>
