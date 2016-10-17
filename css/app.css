@@ -160,31 +160,65 @@ h1 {
 .top-bar {
   background-color: transparent;
   text-align: center;
-  top: 15px;
-  height: 75px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
 }
 .top-bar-section {
   background-color: transparent !important;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+.top-bar-section ul {
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
 }
 .top-bar-section ul li {
   background-color: transparent !important;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
 }
 .top-bar-section ul li > a {
   background-color: transparent !important;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
 }
 
 /* top bar page overrides */
-#about .top-bar {
-  color: rgb(26, 26, 26);
-}
+/*#about .top-bar {*/
+/*  color: rgb(26, 26, 26);*/
+/*  text-align: center;*/
+/*  height: 50px;*/
+/*  line-height: 50px;*/
+/*  padding: 0;*/
+/*}*/
 #about .top-bar-section {
   color: rgb(26, 26, 26);
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+#about .top-bar-section ul {
+  color: rgb(26, 26, 26);
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
 }
 #about .top-bar-section ul li {
   color: rgb(26, 26, 26);
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
 }
 #about .top-bar-section ul li > a {
   color: rgb(26, 26, 26);
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
 }
 
 /* top bar menu - highlight option when selected */
