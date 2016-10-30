@@ -15,9 +15,7 @@ function setPickerElementSizes() {
 };
 
 function setWindowElementSizes() {
-  var blockWidth  = window.innerWidth;
   var blockHeight = window.innerHeight;
-  $('.window-caption').width(blockWidth);
   $('.window-caption').height(blockHeight);
   $('.window-caption').css('line-height', blockHeight+'px');
 };

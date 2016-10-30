@@ -1,0 +1,36 @@
+---
+layout: wallpaper
+title: Illustration
+menu_control: Illustration
+permalink: /illustration/
+backgroundImage: /imgs/illustration/backdrop-duller.jpg
+---
+
+<div class="row full-width">
+    {% include header.html %}
+</div>
+
+<div class="row border-left-only">
+  <p class="font-medium text-left color-white">
+    ILLUSTRATION
+  </p>
+</div>
+
+<section id="picker-overlay">
+
+  <div class="row border-right-only">
+
+    {% for illustration in site.illustrationGallery %}
+    <div class="small-12 medium-4 columns border-bottom-left">
+      <a href="{{ illustration.permalink }}">
+        <img src="{{ illustration.pickerImage }}" id="pickerImage"/>
+        <div class="picker-caption overlay color-white text-center">
+          <p class="font-medium v-align-middle">{{illustration.title}}</p>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+
+  </div>
+
+</section>

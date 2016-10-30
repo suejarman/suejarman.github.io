@@ -188,37 +188,18 @@ h1 {
   padding: 0;
 }
 
-/* top bar page overrides */
-/*#about .top-bar {*/
-/*  color: rgb(26, 26, 26);*/
-/*  text-align: center;*/
-/*  height: 50px;*/
-/*  line-height: 50px;*/
-/*  padding: 0;*/
-/*}*/
+/* top bar - about page overrides */
+#about .top-bar {
+  color: rgb(26, 26, 26);
+}
 #about .top-bar-section {
   color: rgb(26, 26, 26);
-  height: 50px;
-  line-height: 50px;
-  padding: 0;
-}
-#about .top-bar-section ul {
-  color: rgb(26, 26, 26);
-  height: 50px;
-  line-height: 50px;
-  padding: 0;
 }
 #about .top-bar-section ul li {
   color: rgb(26, 26, 26);
-  height: 50px;
-  line-height: 50px;
-  padding: 0;
 }
 #about .top-bar-section ul li > a {
   color: rgb(26, 26, 26);
-  height: 50px;
-  line-height: 50px;
-  padding: 0;
 }
 
 /* top bar menu - highlight option when selected */
@@ -279,10 +260,6 @@ h1 {
 // Image and logo sizing
 // ========================================================================
 */
-
-#logo-index {
-  width: auto;
-}
 
 .member-icon {
   width: 80px !important;
@@ -379,6 +356,11 @@ h1 {
 .font-small {
   font-size: 1.5em;
   letter-spacing: 1.4PX;
+}
+
+.font-xsmall {
+  font-size: 1.1em;
+  letter-spacing: 1.1PX;
 }
 
 .font-underline {

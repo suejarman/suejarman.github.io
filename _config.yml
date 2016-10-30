@@ -15,6 +15,7 @@ copyright_owner: Sue Jarman
 markdown: kramdown
 permalink: pretty
 
+# Collections
 collections:
-  galleries:
+  illustrationGallery:
     output: true
