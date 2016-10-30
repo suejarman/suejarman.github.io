@@ -1,14 +1,15 @@
 ---
-layout: plain-page
+layout: default
 title: About
 menu_control: About
 permalink: /about/
 ---
 <body id='about'>
   
-<div class="border-none">
-  
   <div class="border-all-except-top on-white">
+    
+    {% include header.html %}
+
     <div class="row border-all-sides on-ochre">
       
       <div class="medium-8 columns">
@@ -27,12 +28,10 @@ permalink: /about/
     
     <div class="text-center">
       {% for image in site.data.about_content.images %}
-        <img class="border-none" src="{{ image.url }}">
+        <img width="1000" class="border-none" src="{{ image.url }}">
       {% endfor %}
     </div>
     
   </div>
-
-</div>
 
 </body>
