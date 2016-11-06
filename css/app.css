@@ -183,19 +183,16 @@ h1 {
   padding: 0;
 }
 .top-bar-section ul {
-  height: 50px;
   line-height: 50px;
   padding: 0;
 }
 .top-bar-section ul li {
   background-color: transparent !important;
-  height: 50px;
   line-height: 50px;
   padding: 0;
 }
 .top-bar-section ul li > a {
   background-color: transparent !important;
-  height: 50px;
   line-height: 50px;
   padding: 0;
 }
