@@ -16,6 +16,8 @@ function setPickerElementSizes() {
 
 function setWindowElementSizes() {
   var blockHeight = window.innerHeight;
+  blockHeight = blockHeight - parseInt( $('.top-bar').css('height') );
+  $('.window-caption').width(window.innerWidth);
   $('.window-caption').height(blockHeight);
   $('.window-caption').css('line-height', blockHeight+'px');
 };
