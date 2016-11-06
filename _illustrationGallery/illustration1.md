@@ -1,8 +1,10 @@
 ---
 layout: gallery
-title: Lounge Party
+title: LOUNGE PARTY
+use: promotional
+media: mixed media
 permalink: /illustration1/
-desc: Traditional and vector illustration for editorial, branding, advertising and surface design.
+desc: Advertising and spot illustrations for a fund raising event
 pickerImage: /imgs/illustration/lounge-party/lounge-party-thumb.jpg
 images:
   - desktop: /imgs/illustration/lounge-party/1-lounge-party.jpg

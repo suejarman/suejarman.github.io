@@ -21,11 +21,11 @@ backgroundImage: /imgs/illustration/backdrop-duller.jpg
   <div class="row border-right-only">
 
     {% for illustration in site.illustrationGallery %}
-    <div class="small-12 medium-4 columns border-bottom-left">
+    <div class="small-12 medium-6 columns border-bottom-left">
       <a href="{{ illustration.permalink }}">
         <img src="{{ illustration.pickerImage }}" id="pickerImage"/>
         <div class="picker-caption overlay color-white text-center">
-          <p class="font-medium v-align-middle">{{illustration.title}}</p>
+          <p class="font-small v-align-middle">{{illustration.title}}</p>
         </div>
       </a>
     </div>

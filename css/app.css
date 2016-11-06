@@ -70,6 +70,16 @@
   padding: 50px 0 0 0;
 }
 
+.border-right-only {
+  /* top right bottom left */
+  padding: 0 50px 0 0;
+}
+
+.border-left-only {
+  /* top right bottom left */
+  padding: 0 0 0 50px;
+}
+
 .border-bottom-only {
   /* top right bottom left */
   padding: 0 0 50px 0;
@@ -139,6 +149,8 @@ body {
 
 h1 {
   color: white;
+  /* top right bottom left */
+  /*padding: 20px 0px 0px 0px;*/
 }
 
 .wallpaper {
@@ -308,7 +320,6 @@ h1 {
 */
 
 .scrollToTop {
-  height: 100px;
   display: block;
 }
 
@@ -335,7 +346,7 @@ h1 {
 */
 
 .font-xlarge {
-  font-size: 8.0em;
+  font-size: 4.5em;
   letter-spacing: 1.5PX;
   word-spacing: 2PX;
   line-height: 1.2em;
@@ -359,7 +370,7 @@ h1 {
 }
 
 .font-xsmall {
-  font-size: 1.1em;
+  font-size: 1.0em;
   letter-spacing: 1.1PX;
 }
 
@@ -372,28 +383,12 @@ h1 {
 }
 
 /* media queries to resize fonts for small devices */
-@media only screen and (min-width: 1000px) {
-  .font-xlarge { font-size: 4.7em; }
-}
-
-@media only screen and (max-width: 1000px) {
-  .font-xlarge { font-size: 4.7em; }
-}
-
-@media only screen and (max-width: 800px) {
-  .font-xlarge { font-size: 4.7em; }
-}
-
-@media only screen and (max-width: 600px) {
-  .font-xlarge { font-size: 4.7em; }
-}
-
 @media only screen and (max-width: 400px) {
-  .font-xlarge { font-size: 4.4em; }
-  .font-medium { font-size: 1.5em; }
-  .font-small { font-size: 1.2em; }
-  .border-all-sides { padding: 15px 15px 15px 15px; }
-  .border-all-except-top { padding: 0px 15px 15px 15px; }
+  .font-xlarge { font-size: 4.5em; }
+  .font-large { font-size: 3.0em; }
+  .font-medium { font-size: 2.5em; }
+  .font-small { font-size: 1.5em; }
+  .font-xsmall { font-size: 1.0em; }
 }
 
 /*
@@ -402,9 +397,9 @@ h1 {
 // ========================================================================
 */
 
-@media only screen and (max-width: 650px) {
+/*@media only screen and (max-width: 650px) {*/
   /* top right bottom left */
-  .showcase-block { margin: 0px 0px 20px 0px; }
-  .sticky-column { position: initial; }
-  .top-bar-section { margin-top: 0px; }
-}
+/*  .showcase-block { margin: 0px 0px 20px 0px; }*/
+/*  .sticky-column { position: initial; }*/
+/*  .top-bar-section { margin-top: 0px; }*/
+/*}*/

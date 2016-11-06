@@ -2,32 +2,44 @@
 layout: wallpaper
 ---
 
-<div class="small-12 columns border-dynamic">
+<body id='about'>
+  
+<div class="row full-width">
+    {% include header.html %}
+</div>
+
+<div class="row border-none">
+  
   {% for image in page.images %}
+    <div class="show-for-small-only">
+      <img class="border-none" src="{{ image.mobile }}"/>
+    </div>
+    <div class="show-for-medium-up">
+      <img class="border-none" src="{{ image.desktop }}"/>
+    </div>
     {% if forloop.first %}
-      <div class="window-caption color-white">
-        <div class="window-caption-middle">
-          <p class="font-xlarge">{{ page.title }}</p>
-        </div>
+      <div class="row text-center">
+        <h1 class="font-probapro-xl font-medium color-black">
+          {{ page.title }}
+        </h1>
       </div>
-      <div class="border-all-sides on-light-grey">
-        <div class="border-all-sides on-light-green">
-          <p class="font-medium color-white">
-            {{ page.desc }}
-          </p>
-        </div>
+      <div class="row text-center">
+        <p class="font-small color-black">
+          {{ page.use }}   |   {{ page.media }}
+        </p>
+      </div>
+      <div class="row text-center">
+        <p class="font-xsmall color-black">
+          {{ page.desc }}
+        </p>
       </div>
     {% endif %}
-    <div class="border-none text-center on-dark-grey">
-      <div class="show-for-small-only text-center">
-        <img class="border-none" src="{{ image.mobile }}"/>
-      </div>
-      <div class="show-for-medium-up text-center">
-        <img class="border-none" src="{{ image.desktop }}"/>
-      </div>
-    </div>
   {% endfor %}
-  <div class="border-top-only text-center on-dark-grey">
+  
+  <div class="border-top-only text-center">
     <a href="#" class="scrollToTop"><img src="/imgs/arrow2_up_small.png"/></a>
   </div>
+  
 </div>
+
+</body>
