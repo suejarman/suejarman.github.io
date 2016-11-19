@@ -163,9 +163,15 @@ h1 {
   z-index: -1;
 }
 
+/* fit content to full width */
 .full-width {
   width: 100%;
   margin-left: 0px;
+}
+
+/* no margins for any row content */
+.row .row {
+  margin: 0;
 }
 
 /* top bar defaults - center on top of background */
