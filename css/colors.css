@@ -1,0 +1,57 @@
+/*
+// ========================================================================
+// Colors
+// ========================================================================
+*/
+
+.color-black {
+  color: black;
+}
+
+.color-white {
+  color: white;
+}
+
+.on-biscuit {
+  background-color: rgb(166, 160, 126);
+}
+
+.on-ochre {
+  background-color: rgb(151, 116, 37);
+}
+
+.on-black {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.on-light-green {
+  background-color: rgb(116, 137, 81);
+}
+
+.on-charcoal {
+  background-color: rgb(26, 26, 26);
+}
+
+.on-dark-grey {
+  background-color: rgb(89, 89, 89);
+}
+
+.on-light-grey {
+  background-color: rgb(160, 151, 146);
+}
+
+.on-dark-green {
+  background-color: rgb(96, 114, 72);
+}
+
+.on-navy {
+  background-color: rgb(8, 65, 95);
+}
+
+.on-contact {
+  background-color: rgb(121, 120, 116);
+}
+
+.semi-transparent {
+  opacity: 0.6;
+}

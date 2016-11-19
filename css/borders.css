@@ -1,0 +1,73 @@
+/*
+// ========================================================================
+// Borders and layout styles
+// ========================================================================
+*/
+
+.v-align-middle {
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.border-none {
+  padding: 0;
+}
+
+.border-top-only {
+  /* top right bottom left */
+  padding: 50px 0 0 0;
+}
+
+.border-right-only {
+  /* top right bottom left */
+  padding: 0 50px 0 0;
+}
+
+.border-left-only {
+  /* top right bottom left */
+  padding: 0 0 0 50px;
+}
+
+.border-bottom-only {
+  /* top right bottom left */
+  padding: 0 0 50px 0;
+}
+
+.border-top-bottom {
+  /* top right bottom left */
+  padding: 50px 0 50px 0;
+}
+
+.border-top-left {
+  /* top right bottom left */
+  padding: 50px 0 0 50px;
+}
+
+.border-bottom-left {
+  /* top right bottom left */
+  padding: 0 0 50px 50px;
+}
+
+.border-right-only {
+  /* top right bottom left */
+  padding: 0 50px 0 0;
+}
+
+.border-all-except-top {
+  /* top right bottom left */
+  padding: 0 50px 50px 50px;
+}
+
+.border-all-sides {
+  padding: 50px 50px 50px 50px;
+}
+
+.overlay {
+  /* e.g. overlay text on image */
+  position: absolute;
+  top: 0;
+}
+
+.sticky-column{
+  position: fixed;
+}
