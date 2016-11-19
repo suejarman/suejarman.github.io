@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: gallery2
 title: HOLIDAY POSTCARDS
 use: promotional
 media: mixed media
