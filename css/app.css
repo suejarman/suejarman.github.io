@@ -64,20 +64,6 @@ h1 {
   padding: 0;
 }
 
-/* top bar - about page overrides */
-#about .top-bar {
-  color: rgb(26, 26, 26);
-}
-#about .top-bar-section {
-  color: rgb(26, 26, 26);
-}
-#about .top-bar-section ul li {
-  color: rgb(26, 26, 26);
-}
-#about .top-bar-section ul li > a {
-  color: rgb(26, 26, 26);
-}
-
 /* top bar menu - highlight option when selected */
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   font-weight: bold;
@@ -92,15 +78,43 @@ h1 {
   width: 100%;
 }
 
+.logo {
+    color: rgb(26, 26, 26);
+}
+
+/*
+// ========================================================================
+// Page specific overrides
+// ========================================================================
+*/
+
+/* top bar - about page overrides */
+#about .top-bar {
+    color: rgb(26, 26, 26);
+}
+#about .top-bar-section {
+    color: rgb(26, 26, 26);
+}
+#about .top-bar-section ul li {
+    color: rgb(26, 26, 26);
+}
+#about .top-bar-section ul li > a {
+    color: rgb(26, 26, 26);
+}
+
+#home .logo {
+    display: none;
+}
+
+#illustration .logo {
+    color: white;
+}
+
 /*
 // ========================================================================
 // Specific element styles
 // ========================================================================
 */
-
-#home .logo {
-  display: none;
-}
 
 .index-style {
   height: 150px;
