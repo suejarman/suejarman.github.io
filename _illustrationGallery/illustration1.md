@@ -1,5 +1,5 @@
 ---
-layout: gallery2
+layout: gallery
 title: LOUNGE PARTY
 use: promotional
 media: mixed media
