@@ -7,9 +7,9 @@ function setPickerElementSizes() {
   blockWidth = blockWidth - parseInt( $('.picker-caption').css('paddingLeft') );
   blockWidth = blockWidth - parseInt( $('.picker-caption').css('paddingRight') );
 
-  $('.picker-caption').height(blockHeight);
+  $('.picker-caption').height(blockHeight+1);
+  $('.picker-caption').width(blockWidth+1);
   $('.picker-caption').css('line-height', blockHeight+'px');
-  $('.picker-caption').width(blockWidth);
 
   $('.picker-crop-height').height(blockHeight);
   $('.picker-crop-width').width(blockWidth);
