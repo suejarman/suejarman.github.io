@@ -11,15 +11,17 @@ layout: wallpaper
   </div>
   
   {% for image in page.images %}
-    <div class="show-for-small-only">
-      <img class="border-none" src="{{ image.mobile }}"/>
-    </div>
-    <div class="show-for-medium-up">
-      <img class="border-left-right" src="{{ image.desktop }}"/>
-    </div>
     {% if forloop.first %}
+      <div class="row">
+        <div class="show-for-small-only">
+          <img class="border-none" src="{{ image.mobile }}"/>
+        </div>
+        <div class="show-for-medium-up">
+          <img class="border-left-right" src="{{ image.desktop }}"/>
+        </div>
+      </div>
       <div class="row text-center">
-        <h1 class="font-probapro-xl font-medium color-black">
+        <h1 class="enclosed-title font-probapro-xl font-small color-black">
           {{ page.title }}
         </h1>
       </div>
@@ -32,6 +34,15 @@ layout: wallpaper
         <p class="font-xsmall color-black">
           {{ page.desc }}
         </p>
+      </div>
+    {% else %}
+      <div class="row">
+        <div class="show-for-small-only">
+          <img class="border-none" src="{{ image.mobile }}"/>
+        </div>
+        <div class="show-for-medium-up">
+          <img class="border-all-except-top" src="{{ image.desktop }}"/>
+        </div>
       </div>
     {% endif %}
   {% endfor %}

@@ -66,13 +66,3 @@
 .border-all-sides {
   padding: 50px 50px 50px 50px;
 }
-
-.overlay {
-  /* e.g. overlay text on image */
-  position: absolute;
-  top: 0;
-}
-
-.sticky-column{
-  position: fixed;
-}
