@@ -155,6 +155,7 @@ h1 {
 .picker-caption {
   position: absolute;
   top: 0;
+  left: 0;
   visibility: hidden;
   opacity: 0;
   text-align: center;
@@ -193,7 +194,7 @@ h1 {
 // ========================================================================
 */
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 640px) {
   /* top right bottom left */
   .border-top-only {
     padding: 25px 0 0 0;
@@ -215,6 +216,9 @@ h1 {
   }
   .border-bottom-left {
     padding: 0 0 25px 25px;
+  }
+  .border-bottom-right {
+    padding: 0 25px 25px 0;
   }
   .border-left-right {
     padding: 0 25px 0 25px;

@@ -18,10 +18,10 @@ backgroundImage: /imgs/illustration/backdrop-duller.jpg
   <h1 class="font-probapro-xl text-center">{{ page.title }}</h1>
 </div>
 
-<div class="row border-right-only">
+<div class="row border-left-only">
 
   {% for illustration in site.illustrationGallery %}
-  <div class="picker-wrap small-12 medium-4 columns border-bottom-left">
+  <div class="picker-wrap small-12 medium-4 columns border-bottom-right">
     <a href="{{ illustration.permalink }}">
       <img src="{{ illustration.pickerImage }}" id="pickerImage"/>
       <p class="picker-caption color-white on-ochre text-center font-small v-align-middle">{{illustration.title}}</p>
