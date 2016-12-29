@@ -88,17 +88,17 @@ h1 {
 // ========================================================================
 */
 
-/* top bar - about page overrides */
-#about .top-bar {
+/* top bar - invert color */
+#invert-color .top-bar {
     color: rgb(26, 26, 26);
 }
-#about .top-bar-section {
+#invert-color .top-bar-section {
     color: rgb(26, 26, 26);
 }
-#about .top-bar-section ul li {
+#invert-color .top-bar-section ul li {
     color: rgb(26, 26, 26);
 }
-#about .top-bar-section ul li > a {
+#invert-color .top-bar-section ul li > a {
     color: rgb(26, 26, 26);
 }
 
