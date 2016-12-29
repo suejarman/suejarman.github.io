@@ -216,13 +216,19 @@ h1 {
 }
 
 @media only screen and (max-width: 800px) {
-  .font-medium { font-size: 1.8em; }
-  .font-small { font-size: 1.2em; }
-  .font-xsmall { font-size: 0.8em; }
+  .font-xlarge { font-size: 4.0em; }
+  .font-large { font-size: 2.5em; }
+  .font-medium { font-size: 1.6em; }
+  .font-small { font-size: 1.3em; }
+  .font-xsmall { font-size: 1.0em; }
+  .picker-caption { font-size: 0.7em; }
 }
 
 @media only screen and (max-width: 640px) {
-  .font-medium { font-size: 1.3em; }
-  .font-small { font-size: 1.0em; }
-  .font-xsmall { font-size: 0.7em; }
+  .font-xlarge { font-size: 3.5em; }
+  .font-large { font-size: 1.8em; }
+  .font-medium { font-size: 1.4em; }
+  .font-small { font-size: 1.1em; }
+  .font-xsmall { font-size: 0.8em; }
+  .picker-caption { font-size: 1.0em; }
 }
