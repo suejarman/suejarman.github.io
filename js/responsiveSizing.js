@@ -9,6 +9,7 @@ function setPickerElementSizes() {
 
   $('.picker-caption').height(blockHeight);
   $('.picker-caption').css('line-height', blockHeight+'px');
+  $('.picker-caption').width(blockWidth);
 
   $('.picker-crop-height').height(blockHeight);
   $('.picker-crop-width').width(blockWidth);
