@@ -163,6 +163,8 @@ h1 {
 .picker-wrap:hover .picker-caption {
   visibility: visible;
   opacity: 1;
+  -webkit-transition: ease 0.5s; /* Safari */
+  transition: ease 0.5s;
 }
 
 .picker-crop-height {
