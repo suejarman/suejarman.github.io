@@ -37,3 +37,9 @@ $(window).resize(function() {
   setWindowElementSizes();
   setFullWidthSize();
 });
+
+$(window).on("orientationchange",function(){
+  setPickerElementSizes();
+  setWindowElementSizes();
+  setFullWidthSize();
+});
