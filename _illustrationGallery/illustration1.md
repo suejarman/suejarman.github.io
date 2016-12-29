@@ -1,7 +1,8 @@
 ---
 layout: gallery
 title: LOUNGE PARTY
-use: promotional
+use: promotion
+outcome: print
 media: mixed media
 permalink: /illustration1/
 desc: Advertising and spot illustrations for a fund raising event
