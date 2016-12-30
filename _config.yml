@@ -17,5 +17,5 @@ permalink: pretty
 
 # Collections
 collections:
-  illustrationGallery:
+  galleryIllustration:
     output: true
