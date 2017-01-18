@@ -226,7 +226,7 @@ h1 {
 
 @media only screen and (max-width: 640px) {
   .font-xlarge { font-size: 3.5em; }
-  .font-large { font-size: 1.8em; }
+  .font-large { font-size: 1.6em; }
   .font-medium { font-size: 1.4em; }
   .font-small { font-size: 1.1em; }
   .font-xsmall { font-size: 0.8em; }
