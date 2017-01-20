@@ -5,7 +5,7 @@ use: promotion
 outcome: digital
 media: mixed media
 permalink: /illustration2/
-desc: Illustrations to support and online blog and printed newsletter
+desc: Illustrations to support an online blog and printed newsletter
 pickerImage: /imgs/illustration/postcards/postcard-thumbnail.jpg
 images:
   - desktop: /imgs/illustration/postcards/1-keith-postcard.jpg
