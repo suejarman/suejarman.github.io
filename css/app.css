@@ -399,6 +399,7 @@ h1 {
 }
 
 @media only screen and (max-width: 800px) {
+<<<<<<< HEAD
   .font-xlarge { font-size: 4.7em; }
 }
 
@@ -425,4 +426,21 @@ h1 {
   .showcase-block { margin: 0px 0px 20px 0px; }
   .sticky-column { position: initial; }
   .top-bar-section { margin-top: 0px; }
+=======
+  .font-xlarge { font-size: 4.0em; }
+  .font-large { font-size: 2.5em; }
+  .font-medium { font-size: 1.6em; }
+  .font-small { font-size: 1.3em; }
+  .font-xsmall { font-size: 1.0em; }
+  .picker-caption { font-size: 0.7em; }
+}
+
+@media only screen and (max-width: 640px) {
+  .font-xlarge { font-size: 3.5em; }
+  .font-large { font-size: 1.6em; }
+  .font-medium { font-size: 1.4em; }
+  .font-small { font-size: 1.1em; }
+  .font-xsmall { font-size: 0.8em; }
+  .picker-caption { font-size: 1.3em; }
+>>>>>>> 79f4db2a479f81e08e0e49ff6f2556c0e3fc3bf1
 }
