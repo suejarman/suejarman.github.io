@@ -1,64 +1,36 @@
 ---
-layout: plain
+layout: wallpaper
+title: PROJECTS
+menu_control: Projects
+permalink: /projects/
+backgroundImage: /imgs/projects/backdrop-duller.jpg
 ---
 
-<div class="small-12 columns border-top-left">
-  <p class="font-medium text-left color-white">
-    PROJECTS
-  </p>
-</div>
+<body id='projects'>
 
+<div class="full-width">
 
+  <div class="row">
+    {% include header.html %}
+  </div>
 
-<section id="picker-overlay">
+  <div class="row border-left-only">
+    <h1 class="font-probapro-xl font-medium text-center">{{ page.title }}</h1>
+  </div>
 
-  <div class="border-none">
+  <div class="row border-left-only">
 
-    {% for project in site.projectGallery %}
-    {% assign looprow = forloop.index0 | modulo: 2 %}
-    {% assign loopindex = forloop.index0 | modulo: 6 %}
-
-    {% if looprow == 0 %}
-    <div class="row">
-    {% endif %}
-
-    {% case loopindex %}
-    {% when 0 %}
-    <div class="small-12 medium-6 columns border-none">
-      <div>
-    {% when 1 %}
-    <div class="small-12 medium-6 columns border-none">
-      <div>
-    {% when 2 %}
-    <div class="small-12 medium-8 columns border-none">
-      <div class="picker-crop-height">
-    {% when 3 %}
-    <div class="small-12 medium-4 columns border-none">
-      <div class="picker-crop-width">
-    {% when 4 %}
-    <div class="small-12 medium-4 columns border-none">
-      <div class="picker-crop-width">
-    {% when 5 %}
-    <div class="small-12 medium-8 columns border-none">
-      <div class="picker-crop-height">
-    {% endcase %}
-
-    <a href="{{ project.permalink }}">
-      <img src="{{ project.pickerImage }}" id="pickerImage"/>
-      <div class="picker-caption overlay color-white">
-        <p class="font-medium v-align-middle align-center">{{project.title}}</p>
-      </div>
-    </a>
-
+    {% for projects in site.galleryProjects %}
+    <div class="picker-wrap small-12 medium-4 columns border-bottom-right">
+      <a href="{{ projects.permalink }}">
+        <img src="{{ projects.pickerImage }}" id="pickerImage"/>
+        <p class="picker-caption color-white on-ochre text-center v-align-middle">{{projects.title}}</p>
+      </a>
     </div>
-    </div>
-
-    {% if looprow == 1 %}
-    </div>
-    {% endif %}
-
     {% endfor %}
 
   </div>
 
-</section>
+</div>
+
+</body>
