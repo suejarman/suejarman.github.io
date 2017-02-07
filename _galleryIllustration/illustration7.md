@@ -1,10 +1,17 @@
 ---
 layout: gallery
-title: Next Project Coming Soon
+title: FASHION ILLUSTRATION
 use: product
-outcome: screenprint
+outcome: illustration
 media: mixed media
 permalink: /illustration7/
-desc: Illustrated and screenprinted cards for sale and for self promotion.
-pickerImage:
+desc: Fashion Illustration.
+pickerImage: /imgs/illustration/fashion-1/yellow-trousers-thumb.jpg
+images:
+  - desktop: /imgs/illustration/fashion-1/desktop/yellow-trousers-dt.jpg
+    mobile: /imgs/illustration/fashion-1/mobile/yellow-trousers-m.jpg
+    caption: fashion illustration
+  - desktop: /imgs/illustration/fashion-1/desktop/blue-dress-dt.jpg
+    mobile: /imgs/illustration/fashion-1/mobile/blue-dress-m.jpg
+    caption: fashion illustration
 ---
