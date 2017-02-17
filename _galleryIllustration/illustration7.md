@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: gallery-b
 title: GALLERY 2
 media: mixed media
 permalink: /illustration7/
