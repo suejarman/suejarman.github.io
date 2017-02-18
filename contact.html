@@ -1,57 +1,41 @@
 ---
-layout: default
-title: Contact
+layout: plain
 menu_control: Contact
 permalink: /contact/
 ---
+<body id='invert-color'>
 
-<div class="medium-4 columns show-for-medium-up">
-  <b>Address:</b>
-  <b>Tewin Hill Farm</b>
-  
+<div class="full-width">
 
-  <b>Email:</b>
-  <a href="mailto:{{ site.data.contact_content.email }}">
-  <textarea disabled>
-  {{ site.data.contact_content.email }}
-  </textarea>
-  </a>
+<div class="row">
+  {% include header.html %}
+</div>
 
-  <b>Tel:</b>
-  <textarea disabled>
-  {{ site.data.contact_content.tel }}
-  </textarea>
+<div class="border-bottom-only on-white">
+
+  <div class="row border-all-sides on-violet">
+
+    <div class="medium-6 columns color-white">
+      <h1 class="font-probapro-xl font-medium semi-transparent">CONTACT</h1>
+      <p>
+        <a class="color-white" href="mailto:sue@suejarman.co.uk">sue@suejarman.co.uk</a><br>
+        <br>
+        T: 07971-196510<br>
+        <br>
+        Tewin Hill Farm<br>
+        Tewin Hill<br>
+        Tewin<br>
+        Herts<br>
+        AL6 0LL<br>
+      </p>
+    </div>
+
+    <div class="medium-6 columns">
+      <img src="/imgs/contact/hello-fox.png">
+    </div>
+
+  </div>
 
 </div>
 
-<div class="medium-8 columns show-for-medium-up">
-  {% for image in site.data.contact_content.images %}
-    <img src="{{ image.url }}">
-  {% endfor %}
-</div>
-
-<div class="large-12 columns show-for-small-only">
-  <b>Address:</b>
-  <textarea disabled rows="5">
-  {{ site.data.contact_content.address }}
-  </textarea>
-
-  <b>Email:</b>
-  <a href="mailto:{{ site.data.contact_content.email }}">
-  <textarea disabled>
-  {{ site.data.contact_content.email }}
-  </textarea>
-  </a>
-
-  <b>Tel:</b>
-  <textarea disabled>
-  {{ site.data.contact_content.tel }}
-  </textarea>
-
-</div>
-
-<div class="large-12 columns show-for-small-only">
-  {% for image in site.data.contact_content.images %}
-  <img src="{{ image.url }}">
-  {% endfor %}
-</div>
+</body>
