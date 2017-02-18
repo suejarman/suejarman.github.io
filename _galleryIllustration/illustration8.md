@@ -1,7 +1,7 @@
 ---
-layout: gallery-b
+layout: gallery
 title: SKETCHBOOK
-media: mixed media
+subtitle: mixed media
 permalink: /illustration8/
 desc: Fashion Illustration.
 pickerImage: /imgs/illustration/sketchbook/crayon-figure-comp-thumb.jpg

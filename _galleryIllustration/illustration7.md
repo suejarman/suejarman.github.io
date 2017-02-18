@@ -1,7 +1,7 @@
 ---
-layout: gallery-b
+layout: gallery
 title: GALLERY 2
-media: mixed media
+subtitle: mixed media
 permalink: /illustration7/
 desc: Fashion Illustration.
 pickerImage: /imgs/illustration/fashion-2/fash-pose-blue-thumb.jpg

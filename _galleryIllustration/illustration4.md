@@ -1,7 +1,7 @@
 ---
 layout: gallery
 title: GALLERY 1
-media: mixed media
+subtitle: mixed media
 permalink: /illustration4/
 desc: Fashion Illustration.
 pickerImage: /imgs/illustration/fashion-1/yellow-trousers-thumb.jpg

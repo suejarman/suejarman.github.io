@@ -2,8 +2,7 @@
 layout: gallery
 title: LOUNGE PARTY
 use: promotion
-outcome: print
-media: mixed media
+subtitle: promotion &nbsp;&nbsp;|&nbsp;&nbsp; print &nbsp;&nbsp;|&nbsp;&nbsp; mixed media
 permalink: /illustration1/
 desc: Advertising and spot illustrations for a fund raising event
 pickerImage: /imgs/illustration/lounge-party/lounge-comp-thumb.jpg

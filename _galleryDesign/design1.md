@@ -1,7 +1,7 @@
 ---
-layout: gallery-b
+layout: gallery
 title: A CONSERVATION BUILD
-media: art direction & website design
+subtitle: art direction & website design
 permalink: /design1/
 desc: Website design for Arch Building Consultancy to visualise their passion and experience within the historic built environment. The site needed to capture the company’s ethos and passion for conservation, design and quality – it also had to inform customers on the services, knowledge and experience offered.
       Listening to and working with the client was key to this project’s success.

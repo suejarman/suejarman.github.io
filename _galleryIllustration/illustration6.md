@@ -1,9 +1,7 @@
 ---
 layout: gallery
 title: GHOSTS & SHADOWS
-use: installation
-outcome: storytelling
-media: mixed media
+subtitle: installation &nbsp;&nbsp;|&nbsp;&nbsp; storytelling &nbsp;&nbsp;|&nbsp;&nbsp; mixed media
 permalink: /illustration6/
 desc: A collaborative installation project, commissioned by The Beetroot Tree Gallery in Derbyshire..
 pickerImage: /imgs/illustration/ghosts-shadows/ghosts-thumb.jpg

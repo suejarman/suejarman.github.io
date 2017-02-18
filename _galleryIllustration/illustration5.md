@@ -1,9 +1,7 @@
 ---
 layout: gallery
 title: WINTER CARDS
-use: product
-outcome: screenprint
-media: mixed media
+subtitle: product &nbsp;&nbsp;|&nbsp;&nbsp; screenprint &nbsp;&nbsp;|&nbsp;&nbsp; mixed media
 permalink: /illustration5/
 desc: Illustrated and screenprinted cards for sale and for self promotion.
 pickerImage: /imgs/illustration/winter-cards/winter-cards-thumb.jpg

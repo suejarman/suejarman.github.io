@@ -1,9 +1,7 @@
 ---
 layout: gallery
 title: A ROUTE MAP
-use: promotion
-outcome: print
-media: vector
+subtitle: promotion &nbsp;&nbsp;|&nbsp;&nbsp; print &nbsp;&nbsp;|&nbsp;&nbsp; vector
 permalink: /illustration3/
 desc: Character development and illustrated map for Red Engine Media and Betterware.
 pickerImage: /imgs/illustration/betterware-routemap/betterware-routemap-thumb.jpg

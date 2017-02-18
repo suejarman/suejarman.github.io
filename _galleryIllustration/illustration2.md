@@ -1,9 +1,7 @@
 ---
 layout: gallery
 title: HOLIDAY POSTCARDS
-use: promotion
-outcome: digital
-media: mixed media
+subtitle: promotion &nbsp;&nbsp;|&nbsp;&nbsp; digital &nbsp;&nbsp;|&nbsp;&nbsp; mixed media
 permalink: /illustration2/
 desc: Illustrations to support an online blog and printed newsletter
 pickerImage: /imgs/illustration/postcards/postcard-thumbnail.jpg
