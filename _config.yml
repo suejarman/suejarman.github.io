@@ -19,5 +19,5 @@ permalink: pretty
 collections:
   galleryIllustration:
     output: true
-  galleryProjects:
+  galleryDesign:
     output: true

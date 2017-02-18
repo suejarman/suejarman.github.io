@@ -1,0 +1,35 @@
+---
+layout: wallpaper
+menu_control: Design
+permalink: /design/
+backgroundImage: /imgs/design/backdrop-duller.jpg
+---
+
+<body id='design'>
+
+<div class="full-width">
+
+  <div class="row">
+    {% include header.html %}
+  </div>
+
+  <div class="row border-left-only">
+    <h1 class="font-probapro-xl font-medium text-center">DESIGN</h1>
+  </div>
+
+  <div class="row border-left-only">
+
+    {% for design in site.galleryDesign %}
+    <div class="picker-wrap small-12 medium-4 columns border-bottom-right">
+      <a href="{{ design.permalink }}">
+        <img src="{{ design.pickerImage }}" id="pickerImage"/>
+        <p class="picker-caption color-white on-ochre text-center v-align-middle">{{design.title}}</p>
+      </a>
+    </div>
+    {% endfor %}
+
+  </div>
+
+</div>
+
+</body>

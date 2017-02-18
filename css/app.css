@@ -79,7 +79,11 @@ h1 {
 }
 
 .logo {
-    color: rgb(26, 26, 26);
+  color: rgb(26, 26, 26);
+}
+
+.side-nav li a:not(.button) {
+  color: white;
 }
 
 /*
@@ -102,11 +106,18 @@ h1 {
     color: rgb(26, 26, 26);
 }
 
+/* home page - don't show logo */
 #home .logo {
     display: none;
 }
 
+/* illustration page - logo in white */
 #illustration .logo {
+    color: white;
+}
+
+/* design page - logo in white */
+#design .logo {
     color: white;
 }
 

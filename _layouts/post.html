@@ -24,7 +24,7 @@ layout: plain
         <h1 class="font-probapro-xl font-medium semi-transparent">Archive</h1>
         <ul class="side-nav">
           {% for post in site.posts %}
-          <li><a href="{{ post.url }}">{{ post.date | date: "%B %-d %Y" }}<br>{{ post.title }}</a></li>
+          <li class="color-white"><a href="{{ post.url }}">{{ post.date | date: "%B %-d %Y" }}<br>{{ post.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
