@@ -32,7 +32,7 @@ layout: wallpaper
           {{ page.subtitle }}
         </p>
       </div>
-      <div class="row text-center">
+      <div class="row text-center border-left-right">
         <p class="font-xsmall color-black">
           {{ page.desc }}
         </p>
@@ -40,7 +40,7 @@ layout: wallpaper
     {% else %}
       <div class="row">
         <div class="show-for-small-only">
-          <img class="border-none" src="{{ image.mobile }}"/>
+          <img class="border-bottom-only" src="{{ image.mobile }}"/>
         </div>
         <div class="show-for-medium-up">
           <p class="text-center">
