@@ -196,10 +196,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (= 123)
-<<<<<<< Updated upstream
-=======
-  json
->>>>>>> Stashed changes
 
 BUNDLED WITH
    1.12.5
