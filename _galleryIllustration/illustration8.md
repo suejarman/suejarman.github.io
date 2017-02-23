@@ -18,4 +18,7 @@ images:
   - desktop: /imgs/illustration/sketchbook/desktop/visual-eavesdropping-dt.jpg
     mobile: /imgs/illustration/sketchbook/mobile/visual-eavesdropping-m.jpg
     caption: fashion illustration
+  - desktop: /imgs/illustration/sketchbook/desktop/visual-eavesdropping-dt.jpg
+    mobile: /imgs/illustration/sketchbook/mobile/visual-eavesdropping-m.jpg
+    caption: fashion illustration
 ---
