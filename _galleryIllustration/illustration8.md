@@ -15,8 +15,8 @@ images:
   - desktop: /imgs/illustration/sketchbook/desktop/bathers-dt.jpg
     mobile: /imgs/illustration/sketchbook/mobile/bathers-m.jpg
     caption: fashion illustration
-  - desktop: /imgs/illustration/sketchbook/desktop/visual-eavesdropping-dt.jpg
-    mobile: /imgs/illustration/sketchbook/mobile/visual-eavesdropping-m.jpg
+  - desktop: /imgs/illustration/sketchbook/desktop/highland-figure-dt.jpg
+    mobile: /imgs/illustration/sketchbook/mobile/highland-figure-m.jpg
     caption: fashion illustration
   - desktop: /imgs/illustration/sketchbook/desktop/visual-eavesdropping-dt.jpg
     mobile: /imgs/illustration/sketchbook/mobile/visual-eavesdropping-m.jpg
