@@ -19,14 +19,11 @@ pickerImage: /imgs/design/ghosts-shadows/ghosts-shadows-thumb.jpg
 images:
   - desktop: /imgs/design/ghosts-shadows/desktop/1-ghosts-shadows-4+8comp-dt.jpg
     mobile: /imgs/design/ghosts-shadows/mobile/1-ghosts-shadows-4+8comp-m.jpg
-    caption: Device Collection
+    caption: Installation
   - desktop: /imgs/design/ghosts-shadows/desktop/2-ghosts-shadows-9-dt.jpg
     mobile: /imgs/design/ghosts-shadows/mobile/2-ghosts-shadows-9-m.jpg
-    caption: Landing Page
-  - desktop: /imgs/design/ghosts-shadows/desktop/3-ghosts-shadows-3-dt.jpg
-    mobile: /imgs/design/ghosts-shadows/mobile/3-ghosts-shadows-3-m.jpg
-    caption: Contact Page
+    caption: Installation
   - desktop: /imgs/design/ghosts-shadows/desktop/4-ghosts-shadows-10-dt.jpg
     mobile: /imgs/design/ghosts-shadows/mobile/4-ghosts-shadows-10-m.jpg
-    caption: Contact Page
+    caption: Window Detail
 ---
