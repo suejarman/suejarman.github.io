@@ -3,7 +3,7 @@ layout: gallery
 title: FINANCIAL INVESTMENTS
 subtitle: website design, art direction, illustration
 permalink: /design1/
-desc: Designing a visual identity and fully responsive website for new financial company Fortem Capital - using an existing logo as the starting point.
+desc: Designing a visual identity and fully responsive website for 'Red Engine' for a new financial company 'Fortem Capital' - using an existing logo as the starting point.
       <br>
       <br>
       The branding needs to reflect the company’s contemporary position in the marketplace, and communicate their extensive financial knowledge and experience.
