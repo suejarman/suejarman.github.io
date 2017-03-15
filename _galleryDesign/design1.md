@@ -1,12 +1,18 @@
 ---
 layout: gallery
 title: FINANCIAL INVESTMENTS
-subtitle: visual identity, website design & illustration
+subtitle: website design, art direction, illustration
 permalink: /design1/
-desc: Website design for Arch Building Consultancy to visualise their passion and experience within the historic built environment. The site needed to capture the company’s ethos and passion for conservation, design and quality – it also had to inform customers on the services, knowledge and experience offered.
-      Listening to and working with the client was key to this project’s success.
-      A post project highlight was being told that a new client “chose to work with Arch BC based on the strength of the design of their website”.
-pickerImage: /imgs/design/financial-investments/financial-thumb-480.jpg
+desc: Designing a visual identity and fully responsive website for new financial company Fortem Capital - using an existing logo as the starting point.
+      <br>
+      <br>
+      The branding needs to reflect the company’s contemporary position in the marketplace, and communicate their extensive financial knowledge and experience.
+      A consistent branding required across business cards, financial factsheets and all stationery for print and digital – to also include designed data infographics and spot illustrations.
+      The fully responsive website needs to be a contemporary showcase, be easy to navigate and work as an information resource.
+      <br>
+      <br>
+      Design, art direct and produce multi-device ready artwork - working with a content analyst and website developer.
+pickerImage: /imgs/design/financial-investments/financial-investments-thumb.jpg
 images:
   - desktop: /imgs/design/financial-investments/desktop/1-fortem-devices-selection-dt.jpg
     mobile: /imgs/design/financial-investments/mobile/1-fortem-devices-selection-m.jpg
@@ -17,6 +23,9 @@ images:
   - desktop: /imgs/design/financial-investments/desktop/3-fortem-resources-page-dt.jpg
     mobile: /imgs/design/financial-investments/mobile/3-fortem-resources-page-m.jpg
     caption: Resources Page
+  - desktop: /imgs/design/financial-investments/desktop/coupon-autocall-dt.jpg
+    mobile: /imgs/design/financial-investments/mobile/coupon-autocall-m.jpg
+    caption: Data Sheets
   - desktop: /imgs/design/financial-investments/desktop/4-fortem-sheets-dt.jpg
     mobile: /imgs/design/financial-investments/mobile/4-fortem-sheets-m.jpg
     caption: Data Sheets

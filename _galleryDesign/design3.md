@@ -1,11 +1,20 @@
 ---
 layout: gallery
 title: GHOSTS & SHADOWS
-subtitle: illustration & storytelling
+subtitle: storytelling & art installation
 permalink: /design3/
-desc: Website design for Arch Building Consultancy to visualise their passion and experience within the historic built environment. The site needed to capture the company’s ethos and passion for conservation, design and quality – it also had to inform customers on the services, knowledge and experience offered.
-      Listening to and working with the client was key to this project’s success.
-      A post project highlight was being told that a new client “chose to work with Arch BC based on the strength of the design of their website”.
+desc: ‘Ghosts and Shadows’ was a collaborative installation project, commissioned by The Beetroot Tree Gallery in Derbyshire.
+      <br>
+      <br>
+      Wordsmith Dave Wood and myself were commissioned to respond to the history of the gallery space with words and illustrations respectively.
+      The outcome was a series of sequential images in suspended old window frames. The windows, their illustrations, and typographical snippets were accompanied by readings and atmospheric audio.
+      This multifaceted project was challenging and effective – responding with images to a story or text is one of my favourite methods of generating imagery.
+      <br>
+      <br>
+      The installation was displayed in the gallery as a stand alone exhibition.
+      <br>
+      <br>
+      Some of the images went on to be selected for the Association of Illustrators ‘Images 30’ book and exhibition.
 pickerImage: /imgs/design/ghosts-shadows/ghosts-shadows-thumb.jpg
 images:
   - desktop: /imgs/design/ghosts-shadows/desktop/1-ghosts-shadows-4+8comp-dt.jpg
