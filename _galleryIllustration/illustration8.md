@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: SKETCHBOOK
+title: FASHION SKETCHBOOK
 subtitle: mixed media
 permalink: /illustration8/
 desc: Fashion Illustration.
