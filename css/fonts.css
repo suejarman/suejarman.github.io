@@ -23,6 +23,13 @@
   font-family: ProbaPro-ExtraLight;
 }
 
+.font-kappa-xbold {
+  font-family: KappaDisplay-ExtraBold;
+}
+
+.font-kappa-Ulight {
+  font-family: KappaDisplay-UltraLight;
+}
 
 /*
 // ========================================================================
@@ -55,6 +62,11 @@
 }
 
 .font-xsmall {
+  font-size: 1.2em;
+  letter-spacing: 1.1PX;
+}
+
+.font-xxsmall {
   font-size: 1.0em;
   letter-spacing: 1.1PX;
 }
