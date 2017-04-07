@@ -12,4 +12,7 @@ images:
   - desktop: /imgs/illustration/fashion-1/desktop/blue-dress-dt-1280.jpg
     mobile: /imgs/illustration/fashion-1/mobile/blue-dress-m.jpg
     caption: fashion illustration
+  - desktop: /imgs/illustration/fashion-1/desktop/fash-pose-blue-dt.jpg
+    mobile: /imgs/illustration/fashion-1/mobile/fash-pose-blue-m.jpg
+    caption: fashion illustration
 ---
