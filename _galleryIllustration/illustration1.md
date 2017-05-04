@@ -3,7 +3,7 @@ layout: gallery
 title: SIX DEGREES OF SEPARATION
 subtitle: artwork submission &nbsp;&nbsp;|&nbsp;&nbsp; watercolour
 permalink: /illustration1/
-desc: Artwork submitted to a charity exhibition. The show, a collaboration between Words & Pictures Gallery, Teignmouth and SUPPORT4CO. 
+desc: Artwork submitted to a charity exhibition. The show is a collaboration between Words & Pictures Gallery, Teignmouth and SUPPORT4CO. 
     <br>
     <br>
     SUPPORT4CO is a charity that supports families with children who have been diagnosed with cancer. Support comes from 
