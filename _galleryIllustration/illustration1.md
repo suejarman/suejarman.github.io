@@ -1,16 +1,23 @@
 ---
 layout: gallery
-title: LOUNGE PARTY
-use: promotion
-subtitle: promotion &nbsp;&nbsp;|&nbsp;&nbsp; print &nbsp;&nbsp;|&nbsp;&nbsp; mixed media
+title: SIX DEGREES OF SEPARATION
+subtitle: artwork submission &nbsp;&nbsp;|&nbsp;&nbsp; watercolour
 permalink: /illustration1/
-desc: Advertising and spot illustrations for a fund raising event
-pickerImage: /imgs/illustration/lounge-party/lounge-comp-thumb.jpg
+desc: Artwork submitted to a charity exhibition. The show, a collaboration between Words & Pictures Gallery, Teignmouth and SUPPORT4CO. 
+    <br>
+    <br>
+    SUPPORT4CO is a charity that supports families with children who have been diagnosed with cancer. Support comes from 
+    families who have already been through the trauma of a child with cancer, with advice, guidance, moral support, small 
+    bursaries and just somebody to talk to who have gone through the same experience.
+    <br>
+    <br>
+    50% of proceeds made from the sale of work will go directly to the charity.
+    <br>
+    <br>
+    The exhibition runs from Tuesday 16th May to Wednesday 24th May 2017.
+pickerImage: /imgs/illustration/six-degrees/group-figures-thumb.jpg
 images:
-  - desktop: /imgs/illustration/lounge-party/desktop/1-lounge-party-dt.jpg
-    mobile: /imgs/illustration/lounge-party/mobile/1-lounge-party-m.jpg
-    caption: Invite
-  - desktop: /imgs/illustration/lounge-party/desktop/lounge-comp-dt.jpg
-    mobile: /imgs/illustration/lounge-party/mobile/lounge-comp-m.jpg
-    caption: Poster
+  - desktop: /imgs/illustration/six-degrees/desktop/group-figures-dt.jpg
+    mobile: /imgs/illustration/six-degrees/mobile/group-figures-m.jpg
+    caption: The Group
 ---
