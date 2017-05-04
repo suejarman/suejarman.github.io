@@ -20,4 +20,10 @@ images:
   - desktop: /imgs/illustration/six-degrees/desktop/group-figures-dt.jpg
     mobile: /imgs/illustration/six-degrees/mobile/group-figures-m.jpg
     caption: The Group
+  - desktop: /imgs/illustration/six-degrees/desktop/postcard-2-dt.jpg
+    mobile: /imgs/illustration/six-degrees/mobile/postcard-2-m.jpg
+    caption: The Group
+  - desktop: /imgs/illustration/six-degrees/desktop/postcard-3-dt.jpg
+    mobile: /imgs/illustration/six-degrees/mobile/postcard-3-m.jpg
+    caption: The Group
 ---
