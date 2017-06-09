@@ -24,4 +24,4 @@ A body of vibrant, saturated and more lively pieces - a juxtaposition of geometr
 
 The work and the space was in complete contrast to a week of snowy mountains and skiing – probably one of the reasons why it left its mark.
 
-You can see more <a href="http://henieonstadsanatorium.no" target="_blank" class="highlight-link">here at www.henieonstadsanatorium.no </a>
+You can see more about the Heine Onstad Kunstsenter at <a href="http://henieonstadsanatorium.no" target="_blank" class="highlight-link">www.henieonstadsanatorium.no </a>
