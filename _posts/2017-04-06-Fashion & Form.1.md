@@ -28,6 +28,6 @@ The work and the space was in complete contrast to a week of snowy mountains and
 
 You can see more at http://henieonstadsanatorium.no/
 
-<a href="http://http://henieonstadsanatorium.no" target="_blank" class="highlight-link">here </a>
+<a href="http://henieonstadsanatorium.no" target="_blank" class="highlight-link">here </a>
 
 ![Irma Salo Jaeger]( {{ site.baseurl }}/imgs/blog/splash-of-colour/salo-gallery-2.jpg "Irma Salo Jaeger")
