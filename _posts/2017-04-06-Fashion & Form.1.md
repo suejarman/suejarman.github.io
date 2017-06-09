@@ -22,12 +22,9 @@ It was hosting a retrospective of ‘Irma Salo Jaeger’s work’ – she’s de
 The work included a series of calm, geometrics in muted and earthy pastels.
 A body of vibrant, saturated and more lively pieces - a juxtaposition of geometrics, curves and expressive marks. Then some more recent work, with a more mathematical feel and using limited colour palettes, but still wonderfully vibrant.
 
-![Irma Salo Jaeger]( {{ site.baseurl }}/imgs/blog/splash-of-colour/salo-gallery-2.jpg "Irma Salo Jaeger")
-
 The work and the space was in complete contrast to a week of snowy mountains and skiing – probably one of the reasons why it left its mark.
 
 You can see more at http://henieonstadsanatorium.no/
 
 <a href="http://henieonstadsanatorium.no" target="_blank" class="highlight-link">here </a>
 
-![Irma Salo Jaeger]( {{ site.baseurl }}/imgs/blog/splash-of-colour/salo-gallery-2.jpg "Irma Salo Jaeger")
