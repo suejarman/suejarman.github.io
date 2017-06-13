@@ -5,7 +5,7 @@ menu_control: Blog
 date:   2017-04-06
 ---
 
-The role of a creative is a complex balancing act and should be a good mix of client lead projects/briefs’, the continuous updating of your skills, being inspired by what is happening around, keeping up with other artists’ and designers’ work, and of course networking!
+The role of a creative is a balancing act - a good mix of client lead projects/briefs’, the continuous updating of your skills, being inspired by what’s happening around you, keeping up with other artists’ and designers’ work, and of course networking!
 
 You never really stop thinking art, design, creative… and new ideas arrive at any time of the day or night. 
 
