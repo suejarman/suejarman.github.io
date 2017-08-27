@@ -15,54 +15,54 @@
 
 .border-top-only {
   /* top right bottom left */
-  padding: 50px 0 0 0;
+  padding: 25px 0 0 0;
 }
 
 .border-right-only {
   /* top right bottom left */
-  padding: 0 50px 0 0;
+  padding: 0 25px 0 0;
 }
 
 .border-left-only {
   /* top right bottom left */
-  padding: 0 0 0 50px;
+  padding: 0 0 0 25px;
 }
 
 .border-bottom-only {
   /* top right bottom left */
-  padding: 0 0 50px 0;
+  padding: 0 0 25px 0;
 }
 
 .border-top-bottom {
   /* top right bottom left */
-  padding: 50px 0 50px 0;
+  padding: 25px 0 25px 0;
 }
 
 .border-top-left {
   /* top right bottom left */
-  padding: 50px 0 0 50px;
+  padding: 25px 0 0 25px;
 }
 
 .border-bottom-left {
   /* top right bottom left */
-  padding: 0 0 50px 50px;
+  padding: 0 0 25px 25px;
 }
 
 .border-bottom-right {
   /* top right bottom left */
-  padding: 0 50px 50px 0;
+  padding: 0 25px 25px 0;
 }
 
 .border-left-right {
   /* top right bottom left */
-  padding: 0 50px 0 50px;
+  padding: 0 25px 0 25px;
 }
 
 .border-all-except-top {
   /* top right bottom left */
-  padding: 0 50px 50px 50px;
+  padding: 0 25px 25px 25px;
 }
 
 .border-all-sides {
-  padding: 50px 50px 50px 50px;
+  padding: 25px 25px 25px 25px;
 }

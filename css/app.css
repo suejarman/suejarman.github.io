@@ -214,23 +214,6 @@ h1 {
 */
 
 @media only screen and (max-width: 800px) {
-  /* top right bottom left */
-  .border-top-only {       padding: 25px 0 0 0; }
-  .border-right-only {     padding: 0 25px 0 0; }
-  .border-left-only {      padding: 0 0 0 25px; }
-  .border-bottom-only {    padding: 0 0 25px 0; }
-  .border-top-bottom {     padding: 25px 0 25px 0; }
-  .border-top-left {       padding: 25px 0 0 25px; }
-  .border-bottom-left {    padding: 0 0 25px 25px; }
-  .border-bottom-right {   padding: 0 25px 25px 0; }
-  .border-left-right {     padding: 0 25px 0 25px; }
-  .border-all-except-top { padding: 0 25px 25px 25px; }
-  .border-all-sides {      padding: 25px 25px 25px 25px; }
-
-  .top-bar-section { margin-top: 0; }
-}
-
-@media only screen and (max-width: 800px) {
   .font-xlarge { font-size: 4.0em; }
   .font-large { font-size: 2.5em; }
   .font-medium { font-size: 1.6em; }
