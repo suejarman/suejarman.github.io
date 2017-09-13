@@ -1,7 +1,7 @@
 ---
 layout: gallery
 title: PORTRAITS
-subtitle: portraits &nbsp;&nbsp;|&nbsp;&nbsp; watercolour
+subtitle: portraits &nbsp;&nbsp;|&nbsp;&nbsp; gouache
 permalink: /illustration1/
 desc: Portraits in gouache - personal work 
 pickerImage: /imgs/illustration/figures/frank-paper-thumb.jpg
