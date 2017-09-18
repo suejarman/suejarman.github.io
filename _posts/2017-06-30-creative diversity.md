@@ -13,7 +13,7 @@ As much as possible I’ve been cycling my way from place to place, weather perm
 
 Have been enjoying catching up with all the new graduates’ work - navigating my way through a sea of thought provoking visual inspiration - always one of the highlights of summer.
 
-It’sJarman always great seeing how briefs’ and trends are interpreted, and how new materials and processes lead and drive this. And although I love digital techniques and processes, I also work with traditional drawing, painting and printing, as part of the development and the end product.
+It’s always great seeing how briefs’ and trends are interpreted, and how new materials and processes lead and drive this. And although I love digital techniques and processes, I also work with traditional drawing, painting and printing, as part of the development and the end product.
 
 It can therefore feel overwhelming when you see so much digitally produced work at every turn – so much, that you end up by craving just more diversity.
 
