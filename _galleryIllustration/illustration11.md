@@ -6,13 +6,10 @@ permalink: /illustration11/
 desc: An illustration of David Bowie inspired by the work of Terry O'Neill, commissioned by Red Engine Publishing.
 pickerImage: /imgs/illustration/bowie-by-oneill/bowie-thumb.jpg
 images:
-  - desktop: /imgs/illustration/bowie-by-oneill/desktop/1-bowie-4colour-dt.jpg
-    mobile: /imgs/illustration/bowie-by-oneill/mobile/1-bowie-4colour-m.jpg
+  - desktop: /imgs/illustration/bowie-by-oneill/desktop/bowie-collage-dt.jpg
+    mobile: /imgs/illustration/bowie-by-oneill/mobile/bowie-collage-m.jpg
     caption: fashion illustration
-  - desktop: /imgs/illustration/bowie-by-oneill/desktop/2-bowie-collage-dt.jpg
-    mobile: /imgs/illustration/bowie-by-oneill/mobile/2-bowie-collage-m.jpg
-    caption: fashion illustration
-  - desktop: /imgs/illustration/bowie-by-oneill/desktop/3-bowie-bw-comp-dt.jpg
-    mobile: /imgs/illustration/bowie-by-oneill/mobile/3-bowie-bw-comp-m.jpg
+  - desktop: /imgs/illustration/bowie-by-oneill/desktop/bowie-screen-dt.jpg
+    mobile: /imgs/illustration/bowie-by-oneill/mobile/bowie-screen-m.jpg
     caption: fashion illustration
 ---
