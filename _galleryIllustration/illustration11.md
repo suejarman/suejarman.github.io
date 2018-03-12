@@ -4,7 +4,7 @@ title: BOWIE BY ONEILL
 subtitle: mixed media
 permalink: /illustration11/
 desc: An illustration of David Bowie inspired by the work of Terry O'Neill, commissioned by Red Engine Publishing.
-pickerImage: /imgs/illustration/bowie-by-oneill/bowie-thumb.jpg
+pickerImage: /imgs/illustration/bowie-by-oneill/bowie-.jpg
 images:
   - desktop: /imgs/illustration/bowie-by-oneill/desktop/bowie-collage-dt.jpg
     mobile: /imgs/illustration/bowie-by-oneill/mobile/bowie-collage-m.jpg
