@@ -1,15 +1,18 @@
 ---
 layout: gallery
-title: BOWIE BY ONEILL
-subtitle: mixed media
+title: HOLIDAY POSTCARDS
+subtitle: promotion &nbsp;&nbsp;|&nbsp;&nbsp; digital &nbsp;&nbsp;|&nbsp;&nbsp; mixed media
 permalink: /illustration11/
-desc: An illustration of David Bowie inspired by the work of Terry O'Neill, commissioned by Red Engine Publishing.
-pickerImage: /imgs/illustration/bowie-by-oneill/bowie-thumb.jpg
+desc: Illustrations to support an online blog and printed newsletter
+pickerImage: /imgs/illustration/postcards/postcard-thumbnail.jpg
 images:
-  - desktop: /imgs/illustration/bowie-by-oneill/desktop/bowie-collage-dt.jpg
-    mobile: /imgs/illustration/bowie-by-oneill/mobile/bowie-collage-m.jpg
-    caption: fashion illustration
-  - desktop: /imgs/illustration/bowie-by-oneill/desktop/bowie-screen-dt.jpg
-    mobile: /imgs/illustration/bowie-by-oneill/mobile/bowie-screen-m.jpg
-    caption: fashion illustration
+  - desktop: /imgs/illustration/postcards/desktop/1-keith-postcard-dt.jpg
+    mobile: /imgs/illustration/postcards/mobile/1-keith-postcard-m.jpg
+    caption: Keith
+  - desktop: /imgs/illustration/postcards/desktop/2-rosalind-postcard-dt.jpg
+    mobile: /imgs/illustration/postcards/mobile/2-rosalind-postcard-m.jpg
+    caption: Rosalind
+  - desktop: /imgs/illustration/postcards/desktop/3-ali-postcard-dt.jpg
+    mobile: /imgs/illustration/postcards/mobile/3-ali-postcard-m.jpg
+    caption: Ali
 ---

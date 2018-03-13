@@ -1,13 +1,15 @@
 ---
 layout: gallery
-title: BEVY OF WHITENESS
-subtitle: artwork submission &nbsp;&nbsp;|&nbsp;&nbsp; watercolour
+title: BOWIE BY ONEILL
+subtitle: mixed media
 permalink: /illustration15/
-desc: Artwork for screenprinted cards.
-
-pickerImage: /imgs/illustration/bevy-of-whiteness/bevy-of-whiteness-thumb.jpg
+desc: An illustration of David Bowie inspired by the work of Terry O'Neill, commissioned by Red Engine Publishing. And a screenprint, and detail, on Fabriano paper.
+pickerImage: /imgs/illustration/bowie-by-oneill/bowie-thumb.jpg
 images:
-  - desktop: /imgs/illustration/bevy-of-whiteness/desktop/bevy-of-whiteness-dt.jpg
-    mobile: /imgs/illustration/bevy-of-whiteness/mobile/bevy-of-whiteness-m.jpg
-    caption: A Bevy of Whiteness
+  - desktop: /imgs/illustration/bowie-by-oneill/desktop/bowie-collage-dt.jpg
+    mobile: /imgs/illustration/bowie-by-oneill/mobile/bowie-collage-m.jpg
+    caption: fashion illustration
+  - desktop: /imgs/illustration/bowie-by-oneill/desktop/bowie-screen-dt.jpg
+    mobile: /imgs/illustration/bowie-by-oneill/mobile/bowie-screen-m.jpg
+    caption: fashion illustration
 ---

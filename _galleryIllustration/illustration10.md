@@ -1,21 +1,23 @@
 ---
 layout: gallery
-title: A WEDDING BRAND
-subtitle: mixed media
+title: BEVY OF WHITENESS
+subtitle: artwork submission &nbsp;&nbsp;|&nbsp;&nbsp; watercolour
 permalink: /illustration10/
-desc: Fashion Illustration.
-pickerImage: /imgs/illustration/wedding-brand/shoe-frame-thumb.jpg
+desc: Drawing and painting for the devlopment of greetings cards. With final screenprinted cards on Fabriano paper.
+
+
+pickerImage: /imgs/illustration/bevy-of-whiteness/bevy-of-whiteness-thumb.jpg
 images:
-  - desktop: /imgs/illustration/wedding-brand/desktop/peticoats-dt.jpg
-    mobile: /imgs/illustration/wedding-brand/mobile/peticoats-m.jpg
-    caption: fashion illustration
-  - desktop: /imgs/illustration/wedding-brand/desktop/dress-label-dt.jpg
-    mobile: /imgs/illustration/wedding-brand/mobile/dress-label-m.jpg
-    caption: fashion illustration
-  - desktop: /imgs/illustration/wedding-brand/desktop/shoe-frame-dt.jpg
-    mobile: /imgs/illustration/wedding-brand/mobile/shoe-frame-m.jpg
-    caption: fashion illustration
-  - desktop: /imgs/illustration/wedding-brand/desktop/dress-negative-dt.jpg
-    mobile: /imgs/illustration/wedding-brand/mobile/dress-negative-m.jpg
-    caption: fashion illustration
+  - desktop: /imgs/illustration/bevy-of-whiteness/desktop/bevy-painted-1-dt.jpg
+    mobile: /imgs/illustration/bevy-of-whiteness/mobile/bevy-painted-1-m.jpg
+    caption: A Bevy of Whiteness
+  - desktop: /imgs/illustration/bevy-of-whiteness/desktop/bevy-drawing-dt.jpg
+    mobile: /imgs/illustration/bevy-of-whiteness/mobile/bevy-drawing-m.jpg
+    caption: A Bevy of Whiteness
+  - desktop: /imgs/illustration/bevy-of-whiteness/desktop/bevy-painted-2-dt.jpg
+    mobile: /imgs/illustration/bevy-of-whiteness/mobile/bevy-painted-2-m.jpg
+    caption: A Bevy of Whiteness
+  - desktop: /imgs/illustration/bevy-of-whiteness/desktop/bevy-cards-dt.jpg
+    mobile: /imgs/illustration/bevy-of-whiteness/mobile/bevy-cards-m.jpg
+    caption: A Bevy of Whiteness
 ---
