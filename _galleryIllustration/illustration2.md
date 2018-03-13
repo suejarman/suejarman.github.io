@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: PEOPLE WATCHING
+title: PEOPLE WATCHING DRAWINGS
 subtitle: people watching &nbsp;&nbsp;|&nbsp;&nbsp; mixed media
 permalink: /illustration2/
 desc: Mixed media sketchbook drawings 
