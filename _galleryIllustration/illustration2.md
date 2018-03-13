@@ -1,9 +1,9 @@
 ---
 layout: gallery
-title: PEOPLE WATCHING DRAWINGS
+title: PEOPLE WATCHING
 subtitle: people watching &nbsp;&nbsp;|&nbsp;&nbsp; mixed media
 permalink: /illustration2/
-desc: Mixed media sketchbook drawings 
+desc: Mixed media observational drawings using a variety of media. 
 pickerImage: /imgs/illustration/people-watching/converstion-jl-thumb.jpg
 images:
   - desktop: /imgs/illustration/people-watching/desktop/conversation-jl-dt.jpg
