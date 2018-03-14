@@ -1,9 +1,9 @@
 ---
 layout: gallery
 title: HOLIDAY POSTCARDS
-subtitle: promotion &nbsp;&nbsp;|&nbsp;&nbsp; digital &nbsp;&nbsp;|&nbsp;&nbsp; mixed media
+subtitle: promotion &nbsp;&nbsp;|&nbsp;&nbsp; social media
 permalink: /illustration11/
-desc: Illustrations to support an online blog and printed newsletter
+desc: Illustrations for online blog and printed newsletter.
 pickerImage: /imgs/illustration/postcards/postcard-thumbnail.jpg
 images:
   - desktop: /imgs/illustration/postcards/desktop/1-keith-postcard-dt.jpg

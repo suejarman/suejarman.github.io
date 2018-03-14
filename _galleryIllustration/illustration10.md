@@ -1,9 +1,9 @@
 ---
 layout: gallery
-title: BEVY OF WHITENESS
-subtitle: artwork submission &nbsp;&nbsp;|&nbsp;&nbsp; watercolour
+title: A BEVY OF WHITENESS
+subtitle: stationery design &nbsp;&nbsp;|&nbsp;&nbsp; screenprinting
 permalink: /illustration10/
-desc: Drawing and painting for the devlopment of greetings cards. With final screenprinted cards on Fabriano paper.
+desc: Drawing and painting for stationery design - with screenprinted cards on Fabriano paper.
 
 
 pickerImage: /imgs/illustration/bevy-of-whiteness/bevy-of-whiteness-thumb.jpg

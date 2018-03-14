@@ -1,9 +1,9 @@
 ---
 layout: gallery
 title: A WEDDING BRAND
-subtitle: mixed media
+subtitle: branding &nbsp;&nbsp;|&nbsp;&nbsp; design
 permalink: /illustration16/
-desc: Fashion Illustration.
+desc: Illustration and design for wedding retail. The project included the design of dress labels, business cards and brochures. 
 pickerImage: /imgs/illustration/wedding-brand/shoe-frame-thumb.jpg
 images:
   - desktop: /imgs/illustration/wedding-brand/desktop/peticoats-dt.jpg

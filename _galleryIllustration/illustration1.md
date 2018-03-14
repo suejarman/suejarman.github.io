@@ -1,9 +1,9 @@
 ---
 layout: gallery
 title: FIGURATIVE
-subtitle: portraits &nbsp;&nbsp;|&nbsp;&nbsp; gouache
+subtitle: figures &nbsp;&nbsp;|&nbsp;&nbsp; lifestyle &nbsp;&nbsp;|&nbsp;&nbsp; stories
 permalink: /illustration1/
-desc: Portraits in gouache - personal work 
+desc: A selection of mixed media illustrations.
 pickerImage: /imgs/illustration/figures/frank-paper-thumb.jpg
 images:
   - desktop: /imgs/illustration/figures/desktop/ali-frank-reading-dt.jpg
