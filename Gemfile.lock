@@ -103,7 +103,7 @@ GEM
     jekyll-coffeescript (1.1.1)
       coffee-script (~> 2.2)
       coffee-script-source (~> 1.11.1)
-    jekyll-commonmark (1.1.0)
+    jekyll-commonmark (1.2.0)
       commonmarker (~> 0.14)
       jekyll (>= 3.0, < 4.0)
     jekyll-commonmark-ghpages (0.1.5)
@@ -192,7 +192,6 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (~> 3.0)
-    json (2.1.0)
     kramdown (1.16.2)
     liquid (4.0.0)
     listen (3.1.5)
@@ -246,7 +245,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (= 180)
-  json
 
 BUNDLED WITH
-   1.12.5
+   1.16.1
