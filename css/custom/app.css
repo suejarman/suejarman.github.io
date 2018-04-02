@@ -97,9 +97,9 @@ h1 {
 // ========================================================================
 */
 
-.index-style {
-  height: 150px;
-  line-height: 150px;
+.center-text {
+  width: 100vw;
+  display: table;
   text-align: center;
 }
 
@@ -107,11 +107,8 @@ h1 {
   margin: 0;
   border: 0;
   padding: 0;
-  width: 100vw;
   height: 150px;
   line-height: 150px;
-  display: table;
-  text-align: center;
 }
 
 .window-caption-middle {
