@@ -18,21 +18,19 @@ function setWindowElementSizes() {
   $('.window-caption').height(blockHeight);
   $('.window-caption').css('line-height', blockHeight+'px');
 
-  $('.window-caption-middle').width(window.innerWidth);
-
 };
 
 function setFullWidthSize() {
   $('.full-width').width(window.innerWidth);
 };
 
-$(window).load(function() {
+$(window).on("load",function() {
   setPickerElementSizes();
   setWindowElementSizes();
   setFullWidthSize();
 });
 
-$(window).resize(function() {
+$(window).on("resize",function() {
   setPickerElementSizes();
   setWindowElementSizes();
   setFullWidthSize();
