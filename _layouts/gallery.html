@@ -2,54 +2,54 @@
 layout: wallpaper
 ---
 
-<body id='invert-color'>
+<body id="invert-color">
 
 <div class="full-width">
   
   <div class="row">
       {% include header.html %}
   </div>
-  
-  {% for image in page.images %}
-    {% if forloop.first %}
-      <div class="row">
-        <div class="show-for-small-only">
-          <img class="border-none" src="{{ image.mobile }}"/>
-        </div>
-        <div class="show-for-medium-up">
-          <p class="text-center">
-            <img class="border-left-right limit-width" src="{{ image.desktop }}"/>
-          </p>
-        </div>
+
+  <div class="row show-for-small-only">
+    {% for startImage in page.startImages.mobile %}
+      <img class="columns border-none" src="{{ startImage.image }}"/>
+    {% endfor %}
+  </div>
+
+  <div class="row show-for-medium-up">
+    {% for startImage in page.startImages.desktop %}
+      <img class="columns border-all-except-top limit-width" src="{{ startImage.image }}"/>
+    {% endfor %}
+  </div>
+
+  <div class="row text-center">
+    <h1 class="enclosed-title font-probapro-xl font-small color-black">
+      {{ page.title }}
+    </h1>
+  </div>
+  <div class="row text-center">
+    <p class="font-small color-black">
+      {{ page.subtitle }}
+    </p>
+  </div>
+  <div class="row text-center border-left-right">
+    <p class="font-xxsmall color-black">
+      {{ page.desc }}
+    </p>
+  </div>
+
+  <div class="row">
+    {% for image in page.images %}
+      <div class="show-for-small-only">
+        <img class="border-bottom-only" src="{{ image.mobile }}"/>
       </div>
-      <div class="row text-center">
-        <h1 class="enclosed-title font-probapro-xl font-small color-black">
-          {{ page.title }}
-        </h1>
-      </div>
-      <div class="row text-center">
-        <p class="font-small color-black">
-          {{ page.subtitle }}
+      <div class="show-for-medium-up">
+        <p class="text-center">
+          <img class="border-all-except-top limit-width" src="{{ image.desktop }}"/>
         </p>
       </div>
-      <div class="row text-center border-left-right">
-        <p class="font-xxsmall color-black">
-          {{ page.desc }}
-        </p>
-      </div>
-    {% else %}
-      <div class="row">
-        <div class="show-for-small-only">
-          <img class="border-bottom-only" src="{{ image.mobile }}"/>
-        </div>
-        <div class="show-for-medium-up">
-          <p class="text-center">
-            <img class="border-all-except-top limit-width" src="{{ image.desktop }}"/>
-          </p>
-        </div>
-      </div>
-    {% endif %}
-  {% endfor %}
+    {% endfor %}
+  </div>
 
   <div class="border-top-only text-center">
     <a href="#" class="scrollToTop"><img src="/imgs/arrow2_up_small.png" style="width:5%;"/></a>
