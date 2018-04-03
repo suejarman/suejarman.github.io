@@ -26,7 +26,8 @@ h1 {
 
 /* fit content to full width */
 .full-width {
-  width: 100%;
+  width: 100vw;
+  display: table;
   margin-left: 0;
 }
 
@@ -56,39 +57,29 @@ h1 {
   width: 1024px;
 }
 
+.top-bar, .top-bar ul {
+  color: rgb(26, 26, 26);
+  background-color: transparent;
+}
+
+.top-bar ul li > a {
+  color: rgb(26, 26, 26);
+}
+
 /*
 // ========================================================================
 // Page specific overrides
 // ========================================================================
 */
 
-/* top bar - invert color */
-#invert-color .top-bar {
-    color: rgb(26, 26, 26);
-}
-#invert-color .top-bar-section {
-    color: rgb(26, 26, 26);
-}
-#invert-color .top-bar-section ul li {
-    color: rgb(26, 26, 26);
-}
-#invert-color .top-bar-section ul li > a {
-    color: rgb(26, 26, 26);
+/* home page - invert top bar color */
+#home .top-bar ul li > a {
+  color: white;
 }
 
 /* home page - don't show logo */
 #home .logo {
     display: none;
-}
-
-/* illustration page - logo in white */
-#illustration .logo {
-    color: white;
-}
-
-/* design page - logo in white */
-#design .logo {
-    color: white;
 }
 
 /*
@@ -148,16 +139,6 @@ h1 {
   opacity: 1;
   -webkit-transition: ease 0.5s; /* Safari */
   transition: ease 0.5s;
-}
-
-.picker-crop-height {
-  width: 100%;
-  overflow: hidden;
-}
-
-.picker-crop-width {
-  height: 100%;
-  overflow: hidden;
 }
 
 /*

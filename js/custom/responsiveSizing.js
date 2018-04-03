@@ -5,9 +5,6 @@ function setPickerElementSizes() {
   $('.picker-caption').height(blockHeight+1);
   $('.picker-caption').width(blockWidth+1);
   $('.picker-caption').css('line-height', blockHeight+'px');
-
-  $('.picker-crop-height').height(blockHeight);
-  $('.picker-crop-width').width(blockWidth);
 };
 
 function setWindowElementSizes() {
@@ -17,27 +14,19 @@ function setWindowElementSizes() {
 
   $('.window-caption').height(blockHeight);
   $('.window-caption').css('line-height', blockHeight+'px');
-
-};
-
-function setFullWidthSize() {
-  $('.full-width').width(window.innerWidth);
 };
 
 $(window).on("load",function() {
   setPickerElementSizes();
   setWindowElementSizes();
-  setFullWidthSize();
 });
 
 $(window).on("resize",function() {
   setPickerElementSizes();
   setWindowElementSizes();
-  setFullWidthSize();
 });
 
 $(window).on("orientationchange",function(){
   setPickerElementSizes();
   setWindowElementSizes();
-  setFullWidthSize();
 });
