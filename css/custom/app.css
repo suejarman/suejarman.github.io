@@ -57,6 +57,11 @@ h1 {
   width: 1024px;
 }
 
+.title-bar {
+  color: rgb(26, 26, 26);
+  background-color: rgb(240, 240, 240);
+}
+
 .top-bar, .top-bar ul {
   color: rgb(26, 26, 26);
   background-color: transparent;
@@ -73,6 +78,11 @@ h1 {
 */
 
 /* home page - invert top bar color */
+#home .title-bar {
+  color: white;
+  background-color: transparent;
+}
+
 #home .top-bar ul li > a {
   color: white;
 }
