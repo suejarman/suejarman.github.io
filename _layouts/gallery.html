@@ -10,13 +10,17 @@ layout: wallpaper
 
   <div class="row show-for-small-only">
     {% for startImage in page.startImages.mobile %}
-      <img class="columns border-none" src="{{ startImage.image }}"/>
+      <div class="columns border-none center-text">
+        <img src="{{ startImage.image }}"/>
+      </div>
     {% endfor %}
   </div>
 
-  <div class="row show-for-medium-up">
+  <div class="row show-for-medium">
     {% for startImage in page.startImages.desktop %}
-      <img class="columns border-all-except-top limit-width" src="{{ startImage.image }}"/>
+       <div class="columns border-all-except-top center-text">
+         <img src="{{ startImage.image }}"/>
+       </div>
     {% endfor %}
   </div>
 
@@ -38,13 +42,11 @@ layout: wallpaper
 
   <div class="row">
     {% for image in page.images %}
-    <div class="show-for-small-only">
+    <div class="show-for-small-only center-text">
       <img class="border-bottom-only" src="{{ image.mobile }}"/>
     </div>
-    <div class="show-for-medium-up">
-      <p class="center-text">
-        <img class="border-all-except-top limit-width" src="{{ image.desktop }}"/>
-      </p>
+    <div class="show-for-medium center-text">
+      <img class="border-all-except-top" src="{{ image.desktop }}"/>
     </div>
     {% endfor %}
   </div>
