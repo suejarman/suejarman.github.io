@@ -2,8 +2,6 @@
 layout: wallpaper
 ---
 
-<body id="invert-color">
-
 <div class="full-width">
   
   <div class="row">
@@ -22,39 +20,37 @@ layout: wallpaper
     {% endfor %}
   </div>
 
-  <div class="row text-center">
-    <h1 class="enclosed-title font-probapro-xl font-small color-black">
+  <div class="row center-text">
+    <h1 class="enclosed-title font-probapro-xl font-small color-charcoal">
       {{ page.title }}
     </h1>
   </div>
-  <div class="row text-center">
-    <p class="font-small color-black">
+  <div class="row center-text">
+    <p class="font-small color-charcoal">
       {{ page.subtitle }}
     </p>
   </div>
-  <div class="row text-center border-left-right">
-    <p class="font-xxsmall color-black">
+  <div class="row center-text border-left-right">
+    <p class="font-xsmall color-charcoal">
       {{ page.desc }}
     </p>
   </div>
 
   <div class="row">
     {% for image in page.images %}
-      <div class="show-for-small-only">
-        <img class="border-bottom-only" src="{{ image.mobile }}"/>
-      </div>
-      <div class="show-for-medium-up">
-        <p class="text-center">
-          <img class="border-all-except-top limit-width" src="{{ image.desktop }}"/>
-        </p>
-      </div>
+    <div class="show-for-small-only">
+      <img class="border-bottom-only" src="{{ image.mobile }}"/>
+    </div>
+    <div class="show-for-medium-up">
+      <p class="center-text">
+        <img class="border-all-except-top limit-width" src="{{ image.desktop }}"/>
+      </p>
+    </div>
     {% endfor %}
   </div>
 
-  <div class="border-top-only text-center">
-    <a href="#" class="scrollToTop"><img src="/imgs/arrow2_up_small.png" style="width:5%;"/></a>
+  <div class="border-top-only center-text">
+    <a href="#" class="scrollToTop"><img src="/imgs/arrow2_up_small.png" style="width:25px;"/></a>
   </div>
     
 </div>
-
-</body>

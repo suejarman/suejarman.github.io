@@ -1,8 +1,8 @@
 ---
 layout: plain
+menu_control: Blog
+permalink: /blog/
 ---
-
-<body id='invert-color'>
 
 <div class="full-width">
 
@@ -17,26 +17,28 @@ layout: plain
       <div class="small-12 medium-9 columns">
         <h1 class="font-probapro-xl font-medium semi-transparent">{{ page.title }}</h1>
         <h1 class="font-probapro-xl font-medium semi-transparent">{{ page.date | date: "%B %-d %Y" }}</h1>
-        <p class="font-medium color-white">{{ content }}</p>
+        <div class="font-xsmall">
+          {{ content }}
+        </div>
       </div>
 
       <div class="small-12 medium-3 columns">
         <h1 class="font-probapro-xl font-medium semi-transparent">Archive</h1>
-        <ul class="side-nav">
-          {% for post in site.posts %}
-          <li class="color-white"><a href="{{ post.url }}">{{ post.date | date: "%B %-d %Y" }}<br>{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
+        <div class="font-xsmall">
+          <ul class="side-nav">
+            {% for post in site.posts %}
+            <li class="color-white"><a href="{{ post.url }}">{{ post.date | date: "%B %-d %Y" }}<br>{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
 
     </div>
 
-    <div class="row border-top-only text-center">
-      <a href="#" class="scrollToTop"><img src="/imgs/arrow2_up_small.png" style="width:5%;"/></a>
+    <div class="row border-top-only center-text">
+      <a href="#" class="scrollToTop"><img src="/imgs/arrow2_up_small.png" style="width:25px;"/></a>
     </div>
 
   </div>
 
 </div>
-
-</body>

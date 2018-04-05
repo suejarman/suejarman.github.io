@@ -26,47 +26,14 @@ h1 {
 
 /* fit content to full width */
 .full-width {
-  width: 100%;
-  margin-left: 0;
+  width: 100vw;
+  margin: 0;
 }
 
 /* no margins for any row content */
 .row .row {
+  width: 100vw;
   margin: 0;
-}
-
-/* top bar defaults - center on top of background */
-.top-bar {
-  background-color: transparent;
-  text-align: center;
-  height: 50px;
-  line-height: 50px;
-  padding: 0;
-}
-.top-bar-section {
-  background-color: transparent !important;
-  height: 50px;
-  line-height: 50px;
-  padding: 0;
-}
-.top-bar-section ul {
-  line-height: 50px;
-  padding: 0;
-}
-.top-bar-section ul li {
-  background-color: transparent !important;
-  line-height: 50px;
-  padding: 0;
-}
-.top-bar-section ul li > a {
-  background-color: transparent !important;
-  line-height: 50px;
-  padding: 0;
-}
-
-/* top bar menu - highlight option when selected */
-.top-bar-section li:not(.has-form) a:not(.button):hover {
-  font-weight: bold;
 }
 
 /* footer area defaults */
@@ -90,39 +57,39 @@ h1 {
   width: 1024px;
 }
 
+.title-bar {
+  color: rgb(26, 26, 26);
+  background-color: rgb(240, 240, 240);
+}
+
+.top-bar, .top-bar ul {
+  color: rgb(26, 26, 26);
+  background-color: transparent;
+}
+
+.top-bar ul li > a {
+  color: rgb(26, 26, 26);
+}
+
 /*
 // ========================================================================
 // Page specific overrides
 // ========================================================================
 */
 
-/* top bar - invert color */
-#invert-color .top-bar {
-    color: rgb(26, 26, 26);
+/* home page - invert top bar color */
+#home .title-bar {
+  color: white;
+  background-color: transparent;
 }
-#invert-color .top-bar-section {
-    color: rgb(26, 26, 26);
-}
-#invert-color .top-bar-section ul li {
-    color: rgb(26, 26, 26);
-}
-#invert-color .top-bar-section ul li > a {
-    color: rgb(26, 26, 26);
+
+#home .top-bar ul li > a {
+  color: white;
 }
 
 /* home page - don't show logo */
 #home .logo {
     display: none;
-}
-
-/* illustration page - logo in white */
-#illustration .logo {
-    color: white;
-}
-
-/* design page - logo in white */
-#design .logo {
-    color: white;
 }
 
 /*
@@ -131,9 +98,9 @@ h1 {
 // ========================================================================
 */
 
-.index-style {
-  height: 150px;
-  line-height: 150px;
+.center-text {
+  width: 100vw;
+  display: table;
   text-align: center;
 }
 
@@ -141,11 +108,8 @@ h1 {
   margin: 0;
   border: 0;
   padding: 0;
-  width: auto;
   height: 150px;
   line-height: 150px;
-  display: table;
-  text-align: center;
 }
 
 .window-caption-middle {
@@ -185,16 +149,6 @@ h1 {
   opacity: 1;
   -webkit-transition: ease 0.5s; /* Safari */
   transition: ease 0.5s;
-}
-
-.picker-crop-height {
-  width: 100%;
-  overflow: hidden;
-}
-
-.picker-crop-width {
-  height: 100%;
-  overflow: hidden;
 }
 
 /*
