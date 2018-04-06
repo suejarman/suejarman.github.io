@@ -10,7 +10,7 @@ layout: wallpaper
 
   <div class="row show-for-small-only">
     {% for startImage in page.startImages.mobile %}
-      <div class="columns border-none center-text">
+      <div class="columns border-none center-image">
         <img src="{{ startImage.image }}"/>
       </div>
     {% endfor %}
@@ -18,7 +18,7 @@ layout: wallpaper
 
   <div class="row show-for-medium">
     {% for startImage in page.startImages.desktop %}
-       <div class="columns border-all-except-top center-text">
+       <div class="columns border-all-except-top center-image">
          <img src="{{ startImage.image }}"/>
        </div>
     {% endfor %}
