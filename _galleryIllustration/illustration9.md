@@ -7,8 +7,8 @@ desc: travel sketchbook.
 pickerImage: /imgs/illustration/travel-sketchbook/cuba-road-thumb.jpg
 startImages:
   desktop:
-    - image: /imgs/illustration/travel-sketchbook/desktop/cuba-road-dt.jpg
-    - image: /imgs/illustration/travel-sketchbook/desktop/cuba-street-dt.jpg
+    - image: /imgs/illustration/travel-sketchbook/mobile/cuba-street-m.jpg
+    - image: /imgs/illustration/travel-sketchbook/mobile/cuba-street-m.jpg
   mobile:
     - image: /imgs/illustration/travel-sketchbook/mobile/cuba-road-m.jpg
   caption: travel sketchbook
