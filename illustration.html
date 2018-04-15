@@ -6,29 +6,24 @@ backgroundImage:
 ---
 
 <div class="full-width">
-  
-<div class="row">
-    {% include header.html %}
-</div>
 
-<div class="row center-text border-left-only">
-  <h1 class="font-probapro-xl font-medium center-text color-charcoal">ILLUSTRATION</h1>
-</div>
+  {% include header.html %}
 
-<div class="row border-left-only">
-
-  {% for illustration in site.galleryIllustration %}
-  <div class="picker-wrap small-12 medium-4 large-4 columns border-bottom-right">
-    <a href="{{ illustration.permalink }}">
-      <img src="{{ illustration.pickerImage }}" id="pickerImage"/>
-      <p class="picker-caption color-white on-ochre center-text v-align-middle">{{illustration.title}}</p>
-    </a>
+  <div class="row center-text">
+    <h1 class="font-probapro-xl font-medium color-charcoal">ILLUSTRATION</h1>
   </div>
-  {% endfor %}
+
+  <div class="row border-left-only">
+
+    {% for illustration in site.galleryIllustration %}
+    <div class="picker-wrap small-12 medium-4 large-4 columns border-bottom-right">
+      <a href="{{ illustration.permalink }}">
+        <img src="{{ illustration.pickerImage }}" id="pickerImage"/>
+        <p class="picker-caption color-white on-ochre center-text v-align-middle">{{illustration.title}}</p>
+      </a>
+    </div>
+    {% endfor %}
+
+  </div>
 
 </div>
-
-</div>
-
-</body>
-
