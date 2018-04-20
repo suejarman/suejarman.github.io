@@ -7,14 +7,14 @@ desc: travel sketchbook.
 pickerImage: /imgs/illustration/travel-sketchbook/cuba-road-thumb.jpg
 startImages:
   desktop:
-    - image: /imgs/illustration/travel-sketchbook/desktop/cuba-road-dt.jpg
-    - image: /imgs/illustration/travel-sketchbook/desktop/cuba-street-dt.jpg
+    - image: /imgs/illustration/travel-sketchbook/mobile/cuba-street-m.jpg
+    - image: /imgs/illustration/travel-sketchbook/mobile/cuba-street-m.jpg
   mobile:
     - image: /imgs/illustration/travel-sketchbook/mobile/cuba-road-m.jpg
   caption: travel sketchbook
 images:
-  - desktop: /imgs/illustration/travel-sketchbook/desktop/ben-damph-dt.jpg
-    mobile: /imgs/illustration/travel-sketchbook/mobile/ben-damph-m.jpg
+  - desktop: /imgs/illustration/travel-sketchbook/mobile/ben-damph-m.jpg
+  - mobile: /imgs/illustration/travel-sketchbook/mobile/ben-damph-m.jpg
     caption: travel sketchbook
   - desktop: /imgs/illustration/travel-sketchbook/desktop/ben-damph-landscape-dt.jpg
     mobile: /imgs/illustration/travel-sketchbook/mobile/ben-damph-landscape-m.jpg
