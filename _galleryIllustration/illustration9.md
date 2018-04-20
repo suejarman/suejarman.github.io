@@ -13,8 +13,8 @@ startImages:
     - image: /imgs/illustration/travel-sketchbook/mobile/cuba-road-m.jpg
   caption: travel sketchbook
 images:
-  - desktop: /imgs/illustration/travel-sketchbook/desktop/ben-damph-dt.jpg
-    mobile: /imgs/illustration/travel-sketchbook/mobile/ben-damph-m.jpg
+  - desktop: /imgs/illustration/travel-sketchbook/mobile/ben-damph-m.jpg
+  - mobile: /imgs/illustration/travel-sketchbook/mobile/ben-damph-m.jpg
     caption: travel sketchbook
   - desktop: /imgs/illustration/travel-sketchbook/desktop/ben-damph-landscape-dt.jpg
     mobile: /imgs/illustration/travel-sketchbook/mobile/ben-damph-landscape-m.jpg
