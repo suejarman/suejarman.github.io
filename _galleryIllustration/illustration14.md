@@ -10,11 +10,6 @@ desc: Artwork submitted to a charity exhibition. The show is a collaboration bet
     families who have already been through the trauma of a child with cancer, with advice, guidance, moral support, small 
     bursaries and just somebody to talk to who have gone through the same experience.
     <br>
-    <br>
-    50% of proceeds made from the sale of work will go directly to the charity.
-    <br>
-    <br>
-    The exhibition runs from Tuesday 16th May to Wednesday 24th May 2017.
 pickerImage: /imgs/illustration/six-degrees/group-figures-thumb.jpg
 images:
   - desktop: /imgs/illustration/six-degrees/desktop/group-figures-dt.jpg
