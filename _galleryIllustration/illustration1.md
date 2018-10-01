@@ -1,18 +1,12 @@
 ---
 layout: gallery
-title: FIGURATIVE
-subtitle: figures &nbsp;&nbsp;|&nbsp;&nbsp; lifestyle &nbsp;&nbsp;|&nbsp;&nbsp; stories
+title: A DRAWING A DAY
+subtitle: illustration &nbsp;&nbsp;|&nbsp;&nbsp; drawing challenge
 permalink: /illustration1/
-desc: A selection of mixed media illustrations.
-pickerImage: /imgs/illustration/figures/frank-paper-thumb.jpg
+desc: The House of Illustration’s ‘Drawing a Day’ challenge. Produce a 1’’ drawing, in any media, each day of September. The project was inspired by the work of John Vernon Lord.
+pickerImage: /imgs/illustration/drawing-a-day/drawing-a-day-thumb.jpg
 images:
-  - desktop: /imgs/illustration/figures/desktop/ali-frank-reading-dt.jpg
-    mobile: /imgs/illustration/figures/mobile/ali-frank-reading-m.jpg
-    caption: The Group
-  - desktop: /imgs/illustration/figures/desktop/figures-pool-self-dt.jpg
-    mobile: /imgs/illustration/figures/mobile/figures-pool-self-m.jpg
-    caption: The Group
-  - desktop: /imgs/illustration/figures/desktop/lady-cashmachine-dt.jpg
-    mobile: /imgs/illustration/figures/mobile/lady-cashmachine-m.jpg
-    caption: The Group
+  - desktop: /imgs/illustration/drawing-a-day/desktop/drawing-a-day-dt.jpg
+    mobile: /imgs/illustration/drawing-a-day/mobile/drawing-a-day-m.jpg
+    caption: September images 
 ---

@@ -9,7 +9,6 @@ desc: To create a dog character, logo and branding for a new business developing
       The brand name ‘Pampaw’ was provided by the client - the initial brief was to create a character as an icon/symbol and a vehicle for storytelling. The typography was to compliment and sit alongside the character so both could be used together and independently as required.
       <br>
       <br>
-      <br>
       Key elements in the design process included character development through rough sketches and producing 3D clay models; creating a character with flexibility and humour; considering storytelling and animation options going forward; creating something that conveyed confidence and trust, that was fun and that possessed just the right amount of ‘cuteness’ without being childlike.      <br>
       <br>
       <br>
